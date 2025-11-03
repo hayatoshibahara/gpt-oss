@@ -598,9 +598,9 @@
 
 🟩 Could not locate the custom_generate/generate.py inside openai/gpt-oss-20b.
 🟨 Device set to use cuda
-🟩 GptOssForCausalLMの順伝播開始 input_ids.shape=torch.Size([1, 69]), position_ids.shape=torch.Size([1, 69]), past_key_values=DynamicCache(layers=[DynamicSlidingWindowLayer, DynamicLayer, DynamicSlidingWindowLayer, DynamicLayer, DynamicSlidingWindowLayer, DynamicLayer, DynamicSlidingWindowLayer, DynamicLayer, DynamicSlidingWindowLayer, DynamicLayer, DynamicSlidingWindowLayer, DynamicLayer, DynamicSlidingWindowLayer, DynamicLayer, DynamicSlidingWindowLayer, DynamicLayer, DynamicSlidingWindowLayer, DynamicLayer, DynamicSlidingWindowLayer, DynamicLayer, DynamicSlidingWindowLayer, DynamicLayer, DynamicSlidingWindowLayer, DynamicLayer]), use_cache=True, cache_position.shape=torch.Size([69]), logits_to_keep=1
+🟩 GptOssForCausalLMの順伝播開始 input_ids.shape=torch.Size([1, 69]), position_ids.shape=torch.Size([1, 69]), past_key_values=DynamicCache(layers=[DynamicSlidingWindowLayer, DynamicLayer, DynamicSlidingWindowLayer, DynamicLayer, DynamicSlidingWindowLayer, DynamicLayer, DynamicSlidingWindowLayer, DynamicLayer, DynamicSlidingWindowLayer, DynamicLayer, DynamicSlidingWindowLayer, DynamicLayer, DynamicSlidingWindowLayer, DynamicLayer, DynamicSlidingWindowLayer, DynamicLayer, DynamicSlidingWindowLayer, DynamicLayer, DynamicSlidingWindowLayer, DynamicLayer, DynamicSlidingWindowLayer, DynamicLayer, DynamicSlidingWindowLayer, DynamicLayer]), use_cache=True, cache_position.shape=torch.Size([69]), logits_to_keep=1, attention_mask.shape=torch.Size([1, 69])
 🟦 output_router_logits=False
-🟩 GptOssModelの順伝播開始 input_ids.shape=torch.Size([1, 69]), position_ids.shape=torch.Size([1, 69]), past_key_values=DynamicCache(layers=[DynamicSlidingWindowLayer, DynamicLayer, DynamicSlidingWindowLayer, DynamicLayer, DynamicSlidingWindowLayer, DynamicLayer, DynamicSlidingWindowLayer, DynamicLayer, DynamicSlidingWindowLayer, DynamicLayer, DynamicSlidingWindowLayer, DynamicLayer, DynamicSlidingWindowLayer, DynamicLayer, DynamicSlidingWindowLayer, DynamicLayer, DynamicSlidingWindowLayer, DynamicLayer, DynamicSlidingWindowLayer, DynamicLayer, DynamicSlidingWindowLayer, DynamicLayer, DynamicSlidingWindowLayer, DynamicLayer]), inputs_embeds=None, use_cache=True, cache_position.shape=torch.Size([69])
+🟩 GptOssModelの順伝播開始 input_ids.shape=torch.Size([1, 69]), position_ids.shape=torch.Size([1, 69]), past_key_values=DynamicCache(layers=[DynamicSlidingWindowLayer, DynamicLayer, DynamicSlidingWindowLayer, DynamicLayer, DynamicSlidingWindowLayer, DynamicLayer, DynamicSlidingWindowLayer, DynamicLayer, DynamicSlidingWindowLayer, DynamicLayer, DynamicSlidingWindowLayer, DynamicLayer, DynamicSlidingWindowLayer, DynamicLayer, DynamicSlidingWindowLayer, DynamicLayer, DynamicSlidingWindowLayer, DynamicLayer, DynamicSlidingWindowLayer, DynamicLayer, DynamicSlidingWindowLayer, DynamicLayer, DynamicSlidingWindowLayer, DynamicLayer]), inputs_embeds=None, use_cache=True, cache_position.shape=torch.Size([69]), attention_mask.shape=torch.Size([1, 69])
 🟦 入力の埋め込みを計算 inputs_embeds.shape=torch.Size([1, 69, 2880]), inputs_embeds.dtype=torch.bfloat16
 🟦 因果マスクを準備 causal_mask_mapping['full_attention'].shape=torch.Size([1, 1, 69, 69]), causal_mask_mapping['sliding_attention'].shape=torch.Size([1, 1, 69, 69])
 🟩 GptOssRotaryEmbeddingの順伝播開始 x.shape=torch.Size([1, 69, 2880]), x.dtype=torch.bfloat16, position_ids.shape=torch.Size([1, 69]), position_ids.dtype=torch.int64
@@ -608,11 +608,11 @@
 🟦 position_ids_expanded.shape=torch.Size([1, 1, 69]), position_ids_expanded.dtype=torch.float32
 🟩 GptOssRotaryEmbeddingの順伝播完了 cos.shape=torch.Size([1, 69, 32]), cos.dtype=torch.float32, sin.shape=torch.Size([1, 69, 32]), sin.dtype=torch.float32
 🟦 position_embeddings[0].shape=torch.Size([1, 69, 32]), position_embeddings[1].shape=torch.Size([1, 69, 32])
-🟩 GptOssDecoderLayerの順伝播開始 hidden_states.shape=torch.Size([1, 69, 2880]), hidden_states.dtype=torch.bfloat16, position_ids.shape=torch.Size([1, 69]), past_key_values=DynamicCache(layers=[DynamicSlidingWindowLayer, DynamicLayer, DynamicSlidingWindowLayer, DynamicLayer, DynamicSlidingWindowLayer, DynamicLayer, DynamicSlidingWindowLayer, DynamicLayer, DynamicSlidingWindowLayer, DynamicLayer, DynamicSlidingWindowLayer, DynamicLayer, DynamicSlidingWindowLayer, DynamicLayer, DynamicSlidingWindowLayer, DynamicLayer, DynamicSlidingWindowLayer, DynamicLayer, DynamicSlidingWindowLayer, DynamicLayer, DynamicSlidingWindowLayer, DynamicLayer, DynamicSlidingWindowLayer, DynamicLayer]), use_cache=True, cache_position.shape=torch.Size([69]), position_embeddings[0].shape=torch.Size([1, 69, 32]), position_embeddings[1].shape=torch.Size([1, 69, 32])
+🟩 GptOssDecoderLayerの順伝播開始 hidden_states.shape=torch.Size([1, 69, 2880]), hidden_states.dtype=torch.bfloat16, position_ids.shape=torch.Size([1, 69]), past_key_values=DynamicCache(layers=[DynamicSlidingWindowLayer, DynamicLayer, DynamicSlidingWindowLayer, DynamicLayer, DynamicSlidingWindowLayer, DynamicLayer, DynamicSlidingWindowLayer, DynamicLayer, DynamicSlidingWindowLayer, DynamicLayer, DynamicSlidingWindowLayer, DynamicLayer, DynamicSlidingWindowLayer, DynamicLayer, DynamicSlidingWindowLayer, DynamicLayer, DynamicSlidingWindowLayer, DynamicLayer, DynamicSlidingWindowLayer, DynamicLayer, DynamicSlidingWindowLayer, DynamicLayer, DynamicSlidingWindowLayer, DynamicLayer]), use_cache=True, cache_position.shape=torch.Size([69]), position_embeddings[0].shape=torch.Size([1, 69, 32]), position_embeddings[1].shape=torch.Size([1, 69, 32]), attention_mask.shape=torch.Size([1, 1, 69, 69])
 🟩 RMSNormの順伝播開始 hidden_states.shape=torch.Size([1, 69, 2880]), hidden_states.dtype=torch.bfloat16
 🟦 アップキャスト input_dtype=torch.bfloat16 hidden_states.dtype=torch.float32
 🟩 RMSNormの順伝播完了 res.shape=torch.Size([1, 69, 2880]), res.dtype=torch.bfloat16
-🟩 GptOssAttentionの順伝播開始 hidden_states.shape=torch.Size([1, 69, 2880]), position_embeddings[0].shape=torch.Size([1, 69, 32]), position_embeddings[1].shape=torch.Size([1, 69, 32]), past_key_values=DynamicCache(layers=[DynamicSlidingWindowLayer, DynamicLayer, DynamicSlidingWindowLayer, DynamicLayer, DynamicSlidingWindowLayer, DynamicLayer, DynamicSlidingWindowLayer, DynamicLayer, DynamicSlidingWindowLayer, DynamicLayer, DynamicSlidingWindowLayer, DynamicLayer, DynamicSlidingWindowLayer, DynamicLayer, DynamicSlidingWindowLayer, DynamicLayer, DynamicSlidingWindowLayer, DynamicLayer, DynamicSlidingWindowLayer, DynamicLayer, DynamicSlidingWindowLayer, DynamicLayer, DynamicSlidingWindowLayer, DynamicLayer]), cache_position.shape=torch.Size([69])
+🟩 GptOssAttentionの順伝播開始 hidden_states.shape=torch.Size([1, 69, 2880]), position_embeddings[0].shape=torch.Size([1, 69, 32]), position_embeddings[1].shape=torch.Size([1, 69, 32]), past_key_values=DynamicCache(layers=[DynamicSlidingWindowLayer, DynamicLayer, DynamicSlidingWindowLayer, DynamicLayer, DynamicSlidingWindowLayer, DynamicLayer, DynamicSlidingWindowLayer, DynamicLayer, DynamicSlidingWindowLayer, DynamicLayer, DynamicSlidingWindowLayer, DynamicLayer, DynamicSlidingWindowLayer, DynamicLayer, DynamicSlidingWindowLayer, DynamicLayer, DynamicSlidingWindowLayer, DynamicLayer, DynamicSlidingWindowLayer, DynamicLayer, DynamicSlidingWindowLayer, DynamicLayer, DynamicSlidingWindowLayer, DynamicLayer]), cache_position.shape=torch.Size([69]), attention_mask.shape=torch.Size([1, 1, 69, 69])
 🟦 input_shape=torch.Size([1, 69])
 🟦 hidden_shape=(1, 69, -1, 64)
 🟦 クエリを計算 query_states.shape=torch.Size([1, 64, 69, 64])
@@ -622,7 +622,7 @@
 🟦 RoPEを適用 query_states.shape=torch.Size([1, 64, 69, 64]), key_states.shape=torch.Size([1, 8, 69, 64])
 🟦 キーバリューキャッシュを更新 key_states.shape=torch.Size([1, 8, 69, 64]), value_states.shape=torch.Size([1, 8, 69, 64])
 🟦 使用するアテンション実装: eager_attention_forward
-🟩 eager_attention_forwardの開始 query.shape=torch.Size([1, 64, 69, 64]), key.shape=torch.Size([1, 8, 69, 64]), value.shape=torch.Size([1, 8, 69, 64]), scaling=0.125, dropout=0.0
+🟩 eager_attention_forwardの開始 query.shape=torch.Size([1, 64, 69, 64]), key.shape=torch.Size([1, 8, 69, 64]), value.shape=torch.Size([1, 8, 69, 64]), scaling=0.125, dropout=0.0 attention_mask.shape=torch.Size([1, 1, 69, 69])
 🟩 repeat_kvの開始 hidden_states.shape=torch.Size([1, 8, 69, 64]), hidden_states.dtype=torch.bfloat16, n_rep=8
 🟦 hidden_states.shape=torch.Size([1, 8, 8, 69, 64]), hidden_states.dtype=torch.bfloat16
 🟩 repeat_kvの完了 res.shape=torch.Size([1, 64, 69, 64]), res.dtype=torch.bfloat16
@@ -632,6 +632,7 @@
 🟩 repeat_kvの完了 res.shape=torch.Size([1, 64, 69, 64]), res.dtype=torch.bfloat16
 🟦 バリューを複製 value_states.shape=torch.Size([1, 64, 69, 64]), value_states.dtype=torch.bfloat16
 🟦 アテンションロジットを計算 attn_weights.shape=torch.Size([1, 64, 69, 69]), attn_weights.dtype=torch.bfloat16
+🟦 causal_mask.shape=torch.Size([1, 1, 69, 69]), causal_mask.dtype=torch.bfloat16
 🟦 因果マスク適用 attn_weights.shape=torch.Size([1, 64, 69, 69]), attn_weights.dtype=torch.bfloat16
 🟦 sinks.shape=torch.Size([1, 64, 69, 1]), sinks.dtype=torch.bfloat16
 🟦 シンクを追加 combined_logits.shape=torch.Size([1, 64, 69, 70]), combined_logits.dtype=torch.bfloat16
@@ -647,11 +648,13 @@
 🟩 RMSNormの順伝播開始 hidden_states.shape=torch.Size([1, 69, 2880]), hidden_states.dtype=torch.bfloat16
 🟦 アップキャスト input_dtype=torch.bfloat16 hidden_states.dtype=torch.float32
 🟩 RMSNormの順伝播完了 res.shape=torch.Size([1, 69, 2880]), res.dtype=torch.bfloat16
-🟩 GptOssDecoderLayerの順伝播開始 hidden_states.shape=torch.Size([1, 69, 2880]), hidden_states.dtype=torch.bfloat16, position_ids.shape=torch.Size([1, 69]), past_key_values=DynamicCache(layers=[DynamicSlidingWindowLayer, DynamicLayer, DynamicSlidingWindowLayer, DynamicLayer, DynamicSlidingWindowLayer, DynamicLayer, DynamicSlidingWindowLayer, DynamicLayer, DynamicSlidingWindowLayer, DynamicLayer, DynamicSlidingWindowLayer, DynamicLayer, DynamicSlidingWindowLayer, DynamicLayer, DynamicSlidingWindowLayer, DynamicLayer, DynamicSlidingWindowLayer, DynamicLayer, DynamicSlidingWindowLayer, DynamicLayer, DynamicSlidingWindowLayer, DynamicLayer, DynamicSlidingWindowLayer, DynamicLayer]), use_cache=True, cache_position.shape=torch.Size([69]), position_embeddings[0].shape=torch.Size([1, 69, 32]), position_embeddings[1].shape=torch.Size([1, 69, 32])
+🟦 MoE層の入力 hidden_states.shape=torch.Size([1, 69, 2880]), hidden_states.dtype=torch.bfloat16
+🟦 MoE層の出力 hidden_states.shape=torch.Size([1, 69, 2880]), hidden_states.dtype=torch.bfloat16
+🟩 GptOssDecoderLayerの順伝播開始 hidden_states.shape=torch.Size([1, 69, 2880]), hidden_states.dtype=torch.bfloat16, position_ids.shape=torch.Size([1, 69]), past_key_values=DynamicCache(layers=[DynamicSlidingWindowLayer, DynamicLayer, DynamicSlidingWindowLayer, DynamicLayer, DynamicSlidingWindowLayer, DynamicLayer, DynamicSlidingWindowLayer, DynamicLayer, DynamicSlidingWindowLayer, DynamicLayer, DynamicSlidingWindowLayer, DynamicLayer, DynamicSlidingWindowLayer, DynamicLayer, DynamicSlidingWindowLayer, DynamicLayer, DynamicSlidingWindowLayer, DynamicLayer, DynamicSlidingWindowLayer, DynamicLayer, DynamicSlidingWindowLayer, DynamicLayer, DynamicSlidingWindowLayer, DynamicLayer]), use_cache=True, cache_position.shape=torch.Size([69]), position_embeddings[0].shape=torch.Size([1, 69, 32]), position_embeddings[1].shape=torch.Size([1, 69, 32]), attention_mask.shape=torch.Size([1, 1, 69, 69])
 🟩 RMSNormの順伝播開始 hidden_states.shape=torch.Size([1, 69, 2880]), hidden_states.dtype=torch.bfloat16
 🟦 アップキャスト input_dtype=torch.bfloat16 hidden_states.dtype=torch.float32
 🟩 RMSNormの順伝播完了 res.shape=torch.Size([1, 69, 2880]), res.dtype=torch.bfloat16
-🟩 GptOssAttentionの順伝播開始 hidden_states.shape=torch.Size([1, 69, 2880]), position_embeddings[0].shape=torch.Size([1, 69, 32]), position_embeddings[1].shape=torch.Size([1, 69, 32]), past_key_values=DynamicCache(layers=[DynamicSlidingWindowLayer, DynamicLayer, DynamicSlidingWindowLayer, DynamicLayer, DynamicSlidingWindowLayer, DynamicLayer, DynamicSlidingWindowLayer, DynamicLayer, DynamicSlidingWindowLayer, DynamicLayer, DynamicSlidingWindowLayer, DynamicLayer, DynamicSlidingWindowLayer, DynamicLayer, DynamicSlidingWindowLayer, DynamicLayer, DynamicSlidingWindowLayer, DynamicLayer, DynamicSlidingWindowLayer, DynamicLayer, DynamicSlidingWindowLayer, DynamicLayer, DynamicSlidingWindowLayer, DynamicLayer]), cache_position.shape=torch.Size([69])
+🟩 GptOssAttentionの順伝播開始 hidden_states.shape=torch.Size([1, 69, 2880]), position_embeddings[0].shape=torch.Size([1, 69, 32]), position_embeddings[1].shape=torch.Size([1, 69, 32]), past_key_values=DynamicCache(layers=[DynamicSlidingWindowLayer, DynamicLayer, DynamicSlidingWindowLayer, DynamicLayer, DynamicSlidingWindowLayer, DynamicLayer, DynamicSlidingWindowLayer, DynamicLayer, DynamicSlidingWindowLayer, DynamicLayer, DynamicSlidingWindowLayer, DynamicLayer, DynamicSlidingWindowLayer, DynamicLayer, DynamicSlidingWindowLayer, DynamicLayer, DynamicSlidingWindowLayer, DynamicLayer, DynamicSlidingWindowLayer, DynamicLayer, DynamicSlidingWindowLayer, DynamicLayer, DynamicSlidingWindowLayer, DynamicLayer]), cache_position.shape=torch.Size([69]), attention_mask.shape=torch.Size([1, 1, 69, 69])
 🟦 input_shape=torch.Size([1, 69])
 🟦 hidden_shape=(1, 69, -1, 64)
 🟦 クエリを計算 query_states.shape=torch.Size([1, 64, 69, 64])
@@ -661,7 +664,7 @@
 🟦 RoPEを適用 query_states.shape=torch.Size([1, 64, 69, 64]), key_states.shape=torch.Size([1, 8, 69, 64])
 🟦 キーバリューキャッシュを更新 key_states.shape=torch.Size([1, 8, 69, 64]), value_states.shape=torch.Size([1, 8, 69, 64])
 🟦 使用するアテンション実装: eager_attention_forward
-🟩 eager_attention_forwardの開始 query.shape=torch.Size([1, 64, 69, 64]), key.shape=torch.Size([1, 8, 69, 64]), value.shape=torch.Size([1, 8, 69, 64]), scaling=0.125, dropout=0.0
+🟩 eager_attention_forwardの開始 query.shape=torch.Size([1, 64, 69, 64]), key.shape=torch.Size([1, 8, 69, 64]), value.shape=torch.Size([1, 8, 69, 64]), scaling=0.125, dropout=0.0 attention_mask.shape=torch.Size([1, 1, 69, 69])
 🟩 repeat_kvの開始 hidden_states.shape=torch.Size([1, 8, 69, 64]), hidden_states.dtype=torch.bfloat16, n_rep=8
 🟦 hidden_states.shape=torch.Size([1, 8, 8, 69, 64]), hidden_states.dtype=torch.bfloat16
 🟩 repeat_kvの完了 res.shape=torch.Size([1, 64, 69, 64]), res.dtype=torch.bfloat16
@@ -671,6 +674,7 @@
 🟩 repeat_kvの完了 res.shape=torch.Size([1, 64, 69, 64]), res.dtype=torch.bfloat16
 🟦 バリューを複製 value_states.shape=torch.Size([1, 64, 69, 64]), value_states.dtype=torch.bfloat16
 🟦 アテンションロジットを計算 attn_weights.shape=torch.Size([1, 64, 69, 69]), attn_weights.dtype=torch.bfloat16
+🟦 causal_mask.shape=torch.Size([1, 1, 69, 69]), causal_mask.dtype=torch.bfloat16
 🟦 因果マスク適用 attn_weights.shape=torch.Size([1, 64, 69, 69]), attn_weights.dtype=torch.bfloat16
 🟦 sinks.shape=torch.Size([1, 64, 69, 1]), sinks.dtype=torch.bfloat16
 🟦 シンクを追加 combined_logits.shape=torch.Size([1, 64, 69, 70]), combined_logits.dtype=torch.bfloat16
@@ -686,11 +690,13 @@
 🟩 RMSNormの順伝播開始 hidden_states.shape=torch.Size([1, 69, 2880]), hidden_states.dtype=torch.bfloat16
 🟦 アップキャスト input_dtype=torch.bfloat16 hidden_states.dtype=torch.float32
 🟩 RMSNormの順伝播完了 res.shape=torch.Size([1, 69, 2880]), res.dtype=torch.bfloat16
-🟩 GptOssDecoderLayerの順伝播開始 hidden_states.shape=torch.Size([1, 69, 2880]), hidden_states.dtype=torch.bfloat16, position_ids.shape=torch.Size([1, 69]), past_key_values=DynamicCache(layers=[DynamicSlidingWindowLayer, DynamicLayer, DynamicSlidingWindowLayer, DynamicLayer, DynamicSlidingWindowLayer, DynamicLayer, DynamicSlidingWindowLayer, DynamicLayer, DynamicSlidingWindowLayer, DynamicLayer, DynamicSlidingWindowLayer, DynamicLayer, DynamicSlidingWindowLayer, DynamicLayer, DynamicSlidingWindowLayer, DynamicLayer, DynamicSlidingWindowLayer, DynamicLayer, DynamicSlidingWindowLayer, DynamicLayer, DynamicSlidingWindowLayer, DynamicLayer, DynamicSlidingWindowLayer, DynamicLayer]), use_cache=True, cache_position.shape=torch.Size([69]), position_embeddings[0].shape=torch.Size([1, 69, 32]), position_embeddings[1].shape=torch.Size([1, 69, 32])
+🟦 MoE層の入力 hidden_states.shape=torch.Size([1, 69, 2880]), hidden_states.dtype=torch.bfloat16
+🟦 MoE層の出力 hidden_states.shape=torch.Size([1, 69, 2880]), hidden_states.dtype=torch.bfloat16
+🟩 GptOssDecoderLayerの順伝播開始 hidden_states.shape=torch.Size([1, 69, 2880]), hidden_states.dtype=torch.bfloat16, position_ids.shape=torch.Size([1, 69]), past_key_values=DynamicCache(layers=[DynamicSlidingWindowLayer, DynamicLayer, DynamicSlidingWindowLayer, DynamicLayer, DynamicSlidingWindowLayer, DynamicLayer, DynamicSlidingWindowLayer, DynamicLayer, DynamicSlidingWindowLayer, DynamicLayer, DynamicSlidingWindowLayer, DynamicLayer, DynamicSlidingWindowLayer, DynamicLayer, DynamicSlidingWindowLayer, DynamicLayer, DynamicSlidingWindowLayer, DynamicLayer, DynamicSlidingWindowLayer, DynamicLayer, DynamicSlidingWindowLayer, DynamicLayer, DynamicSlidingWindowLayer, DynamicLayer]), use_cache=True, cache_position.shape=torch.Size([69]), position_embeddings[0].shape=torch.Size([1, 69, 32]), position_embeddings[1].shape=torch.Size([1, 69, 32]), attention_mask.shape=torch.Size([1, 1, 69, 69])
 🟩 RMSNormの順伝播開始 hidden_states.shape=torch.Size([1, 69, 2880]), hidden_states.dtype=torch.bfloat16
 🟦 アップキャスト input_dtype=torch.bfloat16 hidden_states.dtype=torch.float32
 🟩 RMSNormの順伝播完了 res.shape=torch.Size([1, 69, 2880]), res.dtype=torch.bfloat16
-🟩 GptOssAttentionの順伝播開始 hidden_states.shape=torch.Size([1, 69, 2880]), position_embeddings[0].shape=torch.Size([1, 69, 32]), position_embeddings[1].shape=torch.Size([1, 69, 32]), past_key_values=DynamicCache(layers=[DynamicSlidingWindowLayer, DynamicLayer, DynamicSlidingWindowLayer, DynamicLayer, DynamicSlidingWindowLayer, DynamicLayer, DynamicSlidingWindowLayer, DynamicLayer, DynamicSlidingWindowLayer, DynamicLayer, DynamicSlidingWindowLayer, DynamicLayer, DynamicSlidingWindowLayer, DynamicLayer, DynamicSlidingWindowLayer, DynamicLayer, DynamicSlidingWindowLayer, DynamicLayer, DynamicSlidingWindowLayer, DynamicLayer, DynamicSlidingWindowLayer, DynamicLayer, DynamicSlidingWindowLayer, DynamicLayer]), cache_position.shape=torch.Size([69])
+🟩 GptOssAttentionの順伝播開始 hidden_states.shape=torch.Size([1, 69, 2880]), position_embeddings[0].shape=torch.Size([1, 69, 32]), position_embeddings[1].shape=torch.Size([1, 69, 32]), past_key_values=DynamicCache(layers=[DynamicSlidingWindowLayer, DynamicLayer, DynamicSlidingWindowLayer, DynamicLayer, DynamicSlidingWindowLayer, DynamicLayer, DynamicSlidingWindowLayer, DynamicLayer, DynamicSlidingWindowLayer, DynamicLayer, DynamicSlidingWindowLayer, DynamicLayer, DynamicSlidingWindowLayer, DynamicLayer, DynamicSlidingWindowLayer, DynamicLayer, DynamicSlidingWindowLayer, DynamicLayer, DynamicSlidingWindowLayer, DynamicLayer, DynamicSlidingWindowLayer, DynamicLayer, DynamicSlidingWindowLayer, DynamicLayer]), cache_position.shape=torch.Size([69]), attention_mask.shape=torch.Size([1, 1, 69, 69])
 🟦 input_shape=torch.Size([1, 69])
 🟦 hidden_shape=(1, 69, -1, 64)
 🟦 クエリを計算 query_states.shape=torch.Size([1, 64, 69, 64])
@@ -700,7 +706,7 @@
 🟦 RoPEを適用 query_states.shape=torch.Size([1, 64, 69, 64]), key_states.shape=torch.Size([1, 8, 69, 64])
 🟦 キーバリューキャッシュを更新 key_states.shape=torch.Size([1, 8, 69, 64]), value_states.shape=torch.Size([1, 8, 69, 64])
 🟦 使用するアテンション実装: eager_attention_forward
-🟩 eager_attention_forwardの開始 query.shape=torch.Size([1, 64, 69, 64]), key.shape=torch.Size([1, 8, 69, 64]), value.shape=torch.Size([1, 8, 69, 64]), scaling=0.125, dropout=0.0
+🟩 eager_attention_forwardの開始 query.shape=torch.Size([1, 64, 69, 64]), key.shape=torch.Size([1, 8, 69, 64]), value.shape=torch.Size([1, 8, 69, 64]), scaling=0.125, dropout=0.0 attention_mask.shape=torch.Size([1, 1, 69, 69])
 🟩 repeat_kvの開始 hidden_states.shape=torch.Size([1, 8, 69, 64]), hidden_states.dtype=torch.bfloat16, n_rep=8
 🟦 hidden_states.shape=torch.Size([1, 8, 8, 69, 64]), hidden_states.dtype=torch.bfloat16
 🟩 repeat_kvの完了 res.shape=torch.Size([1, 64, 69, 64]), res.dtype=torch.bfloat16
@@ -710,6 +716,7 @@
 🟩 repeat_kvの完了 res.shape=torch.Size([1, 64, 69, 64]), res.dtype=torch.bfloat16
 🟦 バリューを複製 value_states.shape=torch.Size([1, 64, 69, 64]), value_states.dtype=torch.bfloat16
 🟦 アテンションロジットを計算 attn_weights.shape=torch.Size([1, 64, 69, 69]), attn_weights.dtype=torch.bfloat16
+🟦 causal_mask.shape=torch.Size([1, 1, 69, 69]), causal_mask.dtype=torch.bfloat16
 🟦 因果マスク適用 attn_weights.shape=torch.Size([1, 64, 69, 69]), attn_weights.dtype=torch.bfloat16
 🟦 sinks.shape=torch.Size([1, 64, 69, 1]), sinks.dtype=torch.bfloat16
 🟦 シンクを追加 combined_logits.shape=torch.Size([1, 64, 69, 70]), combined_logits.dtype=torch.bfloat16
@@ -725,11 +732,13 @@
 🟩 RMSNormの順伝播開始 hidden_states.shape=torch.Size([1, 69, 2880]), hidden_states.dtype=torch.bfloat16
 🟦 アップキャスト input_dtype=torch.bfloat16 hidden_states.dtype=torch.float32
 🟩 RMSNormの順伝播完了 res.shape=torch.Size([1, 69, 2880]), res.dtype=torch.bfloat16
-🟩 GptOssDecoderLayerの順伝播開始 hidden_states.shape=torch.Size([1, 69, 2880]), hidden_states.dtype=torch.bfloat16, position_ids.shape=torch.Size([1, 69]), past_key_values=DynamicCache(layers=[DynamicSlidingWindowLayer, DynamicLayer, DynamicSlidingWindowLayer, DynamicLayer, DynamicSlidingWindowLayer, DynamicLayer, DynamicSlidingWindowLayer, DynamicLayer, DynamicSlidingWindowLayer, DynamicLayer, DynamicSlidingWindowLayer, DynamicLayer, DynamicSlidingWindowLayer, DynamicLayer, DynamicSlidingWindowLayer, DynamicLayer, DynamicSlidingWindowLayer, DynamicLayer, DynamicSlidingWindowLayer, DynamicLayer, DynamicSlidingWindowLayer, DynamicLayer, DynamicSlidingWindowLayer, DynamicLayer]), use_cache=True, cache_position.shape=torch.Size([69]), position_embeddings[0].shape=torch.Size([1, 69, 32]), position_embeddings[1].shape=torch.Size([1, 69, 32])
+🟦 MoE層の入力 hidden_states.shape=torch.Size([1, 69, 2880]), hidden_states.dtype=torch.bfloat16
+🟦 MoE層の出力 hidden_states.shape=torch.Size([1, 69, 2880]), hidden_states.dtype=torch.bfloat16
+🟩 GptOssDecoderLayerの順伝播開始 hidden_states.shape=torch.Size([1, 69, 2880]), hidden_states.dtype=torch.bfloat16, position_ids.shape=torch.Size([1, 69]), past_key_values=DynamicCache(layers=[DynamicSlidingWindowLayer, DynamicLayer, DynamicSlidingWindowLayer, DynamicLayer, DynamicSlidingWindowLayer, DynamicLayer, DynamicSlidingWindowLayer, DynamicLayer, DynamicSlidingWindowLayer, DynamicLayer, DynamicSlidingWindowLayer, DynamicLayer, DynamicSlidingWindowLayer, DynamicLayer, DynamicSlidingWindowLayer, DynamicLayer, DynamicSlidingWindowLayer, DynamicLayer, DynamicSlidingWindowLayer, DynamicLayer, DynamicSlidingWindowLayer, DynamicLayer, DynamicSlidingWindowLayer, DynamicLayer]), use_cache=True, cache_position.shape=torch.Size([69]), position_embeddings[0].shape=torch.Size([1, 69, 32]), position_embeddings[1].shape=torch.Size([1, 69, 32]), attention_mask.shape=torch.Size([1, 1, 69, 69])
 🟩 RMSNormの順伝播開始 hidden_states.shape=torch.Size([1, 69, 2880]), hidden_states.dtype=torch.bfloat16
 🟦 アップキャスト input_dtype=torch.bfloat16 hidden_states.dtype=torch.float32
 🟩 RMSNormの順伝播完了 res.shape=torch.Size([1, 69, 2880]), res.dtype=torch.bfloat16
-🟩 GptOssAttentionの順伝播開始 hidden_states.shape=torch.Size([1, 69, 2880]), position_embeddings[0].shape=torch.Size([1, 69, 32]), position_embeddings[1].shape=torch.Size([1, 69, 32]), past_key_values=DynamicCache(layers=[DynamicSlidingWindowLayer, DynamicLayer, DynamicSlidingWindowLayer, DynamicLayer, DynamicSlidingWindowLayer, DynamicLayer, DynamicSlidingWindowLayer, DynamicLayer, DynamicSlidingWindowLayer, DynamicLayer, DynamicSlidingWindowLayer, DynamicLayer, DynamicSlidingWindowLayer, DynamicLayer, DynamicSlidingWindowLayer, DynamicLayer, DynamicSlidingWindowLayer, DynamicLayer, DynamicSlidingWindowLayer, DynamicLayer, DynamicSlidingWindowLayer, DynamicLayer, DynamicSlidingWindowLayer, DynamicLayer]), cache_position.shape=torch.Size([69])
+🟩 GptOssAttentionの順伝播開始 hidden_states.shape=torch.Size([1, 69, 2880]), position_embeddings[0].shape=torch.Size([1, 69, 32]), position_embeddings[1].shape=torch.Size([1, 69, 32]), past_key_values=DynamicCache(layers=[DynamicSlidingWindowLayer, DynamicLayer, DynamicSlidingWindowLayer, DynamicLayer, DynamicSlidingWindowLayer, DynamicLayer, DynamicSlidingWindowLayer, DynamicLayer, DynamicSlidingWindowLayer, DynamicLayer, DynamicSlidingWindowLayer, DynamicLayer, DynamicSlidingWindowLayer, DynamicLayer, DynamicSlidingWindowLayer, DynamicLayer, DynamicSlidingWindowLayer, DynamicLayer, DynamicSlidingWindowLayer, DynamicLayer, DynamicSlidingWindowLayer, DynamicLayer, DynamicSlidingWindowLayer, DynamicLayer]), cache_position.shape=torch.Size([69]), attention_mask.shape=torch.Size([1, 1, 69, 69])
 🟦 input_shape=torch.Size([1, 69])
 🟦 hidden_shape=(1, 69, -1, 64)
 🟦 クエリを計算 query_states.shape=torch.Size([1, 64, 69, 64])
@@ -739,7 +748,7 @@
 🟦 RoPEを適用 query_states.shape=torch.Size([1, 64, 69, 64]), key_states.shape=torch.Size([1, 8, 69, 64])
 🟦 キーバリューキャッシュを更新 key_states.shape=torch.Size([1, 8, 69, 64]), value_states.shape=torch.Size([1, 8, 69, 64])
 🟦 使用するアテンション実装: eager_attention_forward
-🟩 eager_attention_forwardの開始 query.shape=torch.Size([1, 64, 69, 64]), key.shape=torch.Size([1, 8, 69, 64]), value.shape=torch.Size([1, 8, 69, 64]), scaling=0.125, dropout=0.0
+🟩 eager_attention_forwardの開始 query.shape=torch.Size([1, 64, 69, 64]), key.shape=torch.Size([1, 8, 69, 64]), value.shape=torch.Size([1, 8, 69, 64]), scaling=0.125, dropout=0.0 attention_mask.shape=torch.Size([1, 1, 69, 69])
 🟩 repeat_kvの開始 hidden_states.shape=torch.Size([1, 8, 69, 64]), hidden_states.dtype=torch.bfloat16, n_rep=8
 🟦 hidden_states.shape=torch.Size([1, 8, 8, 69, 64]), hidden_states.dtype=torch.bfloat16
 🟩 repeat_kvの完了 res.shape=torch.Size([1, 64, 69, 64]), res.dtype=torch.bfloat16
@@ -749,6 +758,7 @@
 🟩 repeat_kvの完了 res.shape=torch.Size([1, 64, 69, 64]), res.dtype=torch.bfloat16
 🟦 バリューを複製 value_states.shape=torch.Size([1, 64, 69, 64]), value_states.dtype=torch.bfloat16
 🟦 アテンションロジットを計算 attn_weights.shape=torch.Size([1, 64, 69, 69]), attn_weights.dtype=torch.bfloat16
+🟦 causal_mask.shape=torch.Size([1, 1, 69, 69]), causal_mask.dtype=torch.bfloat16
 🟦 因果マスク適用 attn_weights.shape=torch.Size([1, 64, 69, 69]), attn_weights.dtype=torch.bfloat16
 🟦 sinks.shape=torch.Size([1, 64, 69, 1]), sinks.dtype=torch.bfloat16
 🟦 シンクを追加 combined_logits.shape=torch.Size([1, 64, 69, 70]), combined_logits.dtype=torch.bfloat16
@@ -764,11 +774,13 @@
 🟩 RMSNormの順伝播開始 hidden_states.shape=torch.Size([1, 69, 2880]), hidden_states.dtype=torch.bfloat16
 🟦 アップキャスト input_dtype=torch.bfloat16 hidden_states.dtype=torch.float32
 🟩 RMSNormの順伝播完了 res.shape=torch.Size([1, 69, 2880]), res.dtype=torch.bfloat16
-🟩 GptOssDecoderLayerの順伝播開始 hidden_states.shape=torch.Size([1, 69, 2880]), hidden_states.dtype=torch.bfloat16, position_ids.shape=torch.Size([1, 69]), past_key_values=DynamicCache(layers=[DynamicSlidingWindowLayer, DynamicLayer, DynamicSlidingWindowLayer, DynamicLayer, DynamicSlidingWindowLayer, DynamicLayer, DynamicSlidingWindowLayer, DynamicLayer, DynamicSlidingWindowLayer, DynamicLayer, DynamicSlidingWindowLayer, DynamicLayer, DynamicSlidingWindowLayer, DynamicLayer, DynamicSlidingWindowLayer, DynamicLayer, DynamicSlidingWindowLayer, DynamicLayer, DynamicSlidingWindowLayer, DynamicLayer, DynamicSlidingWindowLayer, DynamicLayer, DynamicSlidingWindowLayer, DynamicLayer]), use_cache=True, cache_position.shape=torch.Size([69]), position_embeddings[0].shape=torch.Size([1, 69, 32]), position_embeddings[1].shape=torch.Size([1, 69, 32])
+🟦 MoE層の入力 hidden_states.shape=torch.Size([1, 69, 2880]), hidden_states.dtype=torch.bfloat16
+🟦 MoE層の出力 hidden_states.shape=torch.Size([1, 69, 2880]), hidden_states.dtype=torch.bfloat16
+🟩 GptOssDecoderLayerの順伝播開始 hidden_states.shape=torch.Size([1, 69, 2880]), hidden_states.dtype=torch.bfloat16, position_ids.shape=torch.Size([1, 69]), past_key_values=DynamicCache(layers=[DynamicSlidingWindowLayer, DynamicLayer, DynamicSlidingWindowLayer, DynamicLayer, DynamicSlidingWindowLayer, DynamicLayer, DynamicSlidingWindowLayer, DynamicLayer, DynamicSlidingWindowLayer, DynamicLayer, DynamicSlidingWindowLayer, DynamicLayer, DynamicSlidingWindowLayer, DynamicLayer, DynamicSlidingWindowLayer, DynamicLayer, DynamicSlidingWindowLayer, DynamicLayer, DynamicSlidingWindowLayer, DynamicLayer, DynamicSlidingWindowLayer, DynamicLayer, DynamicSlidingWindowLayer, DynamicLayer]), use_cache=True, cache_position.shape=torch.Size([69]), position_embeddings[0].shape=torch.Size([1, 69, 32]), position_embeddings[1].shape=torch.Size([1, 69, 32]), attention_mask.shape=torch.Size([1, 1, 69, 69])
 🟩 RMSNormの順伝播開始 hidden_states.shape=torch.Size([1, 69, 2880]), hidden_states.dtype=torch.bfloat16
 🟦 アップキャスト input_dtype=torch.bfloat16 hidden_states.dtype=torch.float32
 🟩 RMSNormの順伝播完了 res.shape=torch.Size([1, 69, 2880]), res.dtype=torch.bfloat16
-🟩 GptOssAttentionの順伝播開始 hidden_states.shape=torch.Size([1, 69, 2880]), position_embeddings[0].shape=torch.Size([1, 69, 32]), position_embeddings[1].shape=torch.Size([1, 69, 32]), past_key_values=DynamicCache(layers=[DynamicSlidingWindowLayer, DynamicLayer, DynamicSlidingWindowLayer, DynamicLayer, DynamicSlidingWindowLayer, DynamicLayer, DynamicSlidingWindowLayer, DynamicLayer, DynamicSlidingWindowLayer, DynamicLayer, DynamicSlidingWindowLayer, DynamicLayer, DynamicSlidingWindowLayer, DynamicLayer, DynamicSlidingWindowLayer, DynamicLayer, DynamicSlidingWindowLayer, DynamicLayer, DynamicSlidingWindowLayer, DynamicLayer, DynamicSlidingWindowLayer, DynamicLayer, DynamicSlidingWindowLayer, DynamicLayer]), cache_position.shape=torch.Size([69])
+🟩 GptOssAttentionの順伝播開始 hidden_states.shape=torch.Size([1, 69, 2880]), position_embeddings[0].shape=torch.Size([1, 69, 32]), position_embeddings[1].shape=torch.Size([1, 69, 32]), past_key_values=DynamicCache(layers=[DynamicSlidingWindowLayer, DynamicLayer, DynamicSlidingWindowLayer, DynamicLayer, DynamicSlidingWindowLayer, DynamicLayer, DynamicSlidingWindowLayer, DynamicLayer, DynamicSlidingWindowLayer, DynamicLayer, DynamicSlidingWindowLayer, DynamicLayer, DynamicSlidingWindowLayer, DynamicLayer, DynamicSlidingWindowLayer, DynamicLayer, DynamicSlidingWindowLayer, DynamicLayer, DynamicSlidingWindowLayer, DynamicLayer, DynamicSlidingWindowLayer, DynamicLayer, DynamicSlidingWindowLayer, DynamicLayer]), cache_position.shape=torch.Size([69]), attention_mask.shape=torch.Size([1, 1, 69, 69])
 🟦 input_shape=torch.Size([1, 69])
 🟦 hidden_shape=(1, 69, -1, 64)
 🟦 クエリを計算 query_states.shape=torch.Size([1, 64, 69, 64])
@@ -778,7 +790,7 @@
 🟦 RoPEを適用 query_states.shape=torch.Size([1, 64, 69, 64]), key_states.shape=torch.Size([1, 8, 69, 64])
 🟦 キーバリューキャッシュを更新 key_states.shape=torch.Size([1, 8, 69, 64]), value_states.shape=torch.Size([1, 8, 69, 64])
 🟦 使用するアテンション実装: eager_attention_forward
-🟩 eager_attention_forwardの開始 query.shape=torch.Size([1, 64, 69, 64]), key.shape=torch.Size([1, 8, 69, 64]), value.shape=torch.Size([1, 8, 69, 64]), scaling=0.125, dropout=0.0
+🟩 eager_attention_forwardの開始 query.shape=torch.Size([1, 64, 69, 64]), key.shape=torch.Size([1, 8, 69, 64]), value.shape=torch.Size([1, 8, 69, 64]), scaling=0.125, dropout=0.0 attention_mask.shape=torch.Size([1, 1, 69, 69])
 🟩 repeat_kvの開始 hidden_states.shape=torch.Size([1, 8, 69, 64]), hidden_states.dtype=torch.bfloat16, n_rep=8
 🟦 hidden_states.shape=torch.Size([1, 8, 8, 69, 64]), hidden_states.dtype=torch.bfloat16
 🟩 repeat_kvの完了 res.shape=torch.Size([1, 64, 69, 64]), res.dtype=torch.bfloat16
@@ -788,6 +800,7 @@
 🟩 repeat_kvの完了 res.shape=torch.Size([1, 64, 69, 64]), res.dtype=torch.bfloat16
 🟦 バリューを複製 value_states.shape=torch.Size([1, 64, 69, 64]), value_states.dtype=torch.bfloat16
 🟦 アテンションロジットを計算 attn_weights.shape=torch.Size([1, 64, 69, 69]), attn_weights.dtype=torch.bfloat16
+🟦 causal_mask.shape=torch.Size([1, 1, 69, 69]), causal_mask.dtype=torch.bfloat16
 🟦 因果マスク適用 attn_weights.shape=torch.Size([1, 64, 69, 69]), attn_weights.dtype=torch.bfloat16
 🟦 sinks.shape=torch.Size([1, 64, 69, 1]), sinks.dtype=torch.bfloat16
 🟦 シンクを追加 combined_logits.shape=torch.Size([1, 64, 69, 70]), combined_logits.dtype=torch.bfloat16
@@ -803,11 +816,13 @@
 🟩 RMSNormの順伝播開始 hidden_states.shape=torch.Size([1, 69, 2880]), hidden_states.dtype=torch.bfloat16
 🟦 アップキャスト input_dtype=torch.bfloat16 hidden_states.dtype=torch.float32
 🟩 RMSNormの順伝播完了 res.shape=torch.Size([1, 69, 2880]), res.dtype=torch.bfloat16
-🟩 GptOssDecoderLayerの順伝播開始 hidden_states.shape=torch.Size([1, 69, 2880]), hidden_states.dtype=torch.bfloat16, position_ids.shape=torch.Size([1, 69]), past_key_values=DynamicCache(layers=[DynamicSlidingWindowLayer, DynamicLayer, DynamicSlidingWindowLayer, DynamicLayer, DynamicSlidingWindowLayer, DynamicLayer, DynamicSlidingWindowLayer, DynamicLayer, DynamicSlidingWindowLayer, DynamicLayer, DynamicSlidingWindowLayer, DynamicLayer, DynamicSlidingWindowLayer, DynamicLayer, DynamicSlidingWindowLayer, DynamicLayer, DynamicSlidingWindowLayer, DynamicLayer, DynamicSlidingWindowLayer, DynamicLayer, DynamicSlidingWindowLayer, DynamicLayer, DynamicSlidingWindowLayer, DynamicLayer]), use_cache=True, cache_position.shape=torch.Size([69]), position_embeddings[0].shape=torch.Size([1, 69, 32]), position_embeddings[1].shape=torch.Size([1, 69, 32])
+🟦 MoE層の入力 hidden_states.shape=torch.Size([1, 69, 2880]), hidden_states.dtype=torch.bfloat16
+🟦 MoE層の出力 hidden_states.shape=torch.Size([1, 69, 2880]), hidden_states.dtype=torch.bfloat16
+🟩 GptOssDecoderLayerの順伝播開始 hidden_states.shape=torch.Size([1, 69, 2880]), hidden_states.dtype=torch.bfloat16, position_ids.shape=torch.Size([1, 69]), past_key_values=DynamicCache(layers=[DynamicSlidingWindowLayer, DynamicLayer, DynamicSlidingWindowLayer, DynamicLayer, DynamicSlidingWindowLayer, DynamicLayer, DynamicSlidingWindowLayer, DynamicLayer, DynamicSlidingWindowLayer, DynamicLayer, DynamicSlidingWindowLayer, DynamicLayer, DynamicSlidingWindowLayer, DynamicLayer, DynamicSlidingWindowLayer, DynamicLayer, DynamicSlidingWindowLayer, DynamicLayer, DynamicSlidingWindowLayer, DynamicLayer, DynamicSlidingWindowLayer, DynamicLayer, DynamicSlidingWindowLayer, DynamicLayer]), use_cache=True, cache_position.shape=torch.Size([69]), position_embeddings[0].shape=torch.Size([1, 69, 32]), position_embeddings[1].shape=torch.Size([1, 69, 32]), attention_mask.shape=torch.Size([1, 1, 69, 69])
 🟩 RMSNormの順伝播開始 hidden_states.shape=torch.Size([1, 69, 2880]), hidden_states.dtype=torch.bfloat16
 🟦 アップキャスト input_dtype=torch.bfloat16 hidden_states.dtype=torch.float32
 🟩 RMSNormの順伝播完了 res.shape=torch.Size([1, 69, 2880]), res.dtype=torch.bfloat16
-🟩 GptOssAttentionの順伝播開始 hidden_states.shape=torch.Size([1, 69, 2880]), position_embeddings[0].shape=torch.Size([1, 69, 32]), position_embeddings[1].shape=torch.Size([1, 69, 32]), past_key_values=DynamicCache(layers=[DynamicSlidingWindowLayer, DynamicLayer, DynamicSlidingWindowLayer, DynamicLayer, DynamicSlidingWindowLayer, DynamicLayer, DynamicSlidingWindowLayer, DynamicLayer, DynamicSlidingWindowLayer, DynamicLayer, DynamicSlidingWindowLayer, DynamicLayer, DynamicSlidingWindowLayer, DynamicLayer, DynamicSlidingWindowLayer, DynamicLayer, DynamicSlidingWindowLayer, DynamicLayer, DynamicSlidingWindowLayer, DynamicLayer, DynamicSlidingWindowLayer, DynamicLayer, DynamicSlidingWindowLayer, DynamicLayer]), cache_position.shape=torch.Size([69])
+🟩 GptOssAttentionの順伝播開始 hidden_states.shape=torch.Size([1, 69, 2880]), position_embeddings[0].shape=torch.Size([1, 69, 32]), position_embeddings[1].shape=torch.Size([1, 69, 32]), past_key_values=DynamicCache(layers=[DynamicSlidingWindowLayer, DynamicLayer, DynamicSlidingWindowLayer, DynamicLayer, DynamicSlidingWindowLayer, DynamicLayer, DynamicSlidingWindowLayer, DynamicLayer, DynamicSlidingWindowLayer, DynamicLayer, DynamicSlidingWindowLayer, DynamicLayer, DynamicSlidingWindowLayer, DynamicLayer, DynamicSlidingWindowLayer, DynamicLayer, DynamicSlidingWindowLayer, DynamicLayer, DynamicSlidingWindowLayer, DynamicLayer, DynamicSlidingWindowLayer, DynamicLayer, DynamicSlidingWindowLayer, DynamicLayer]), cache_position.shape=torch.Size([69]), attention_mask.shape=torch.Size([1, 1, 69, 69])
 🟦 input_shape=torch.Size([1, 69])
 🟦 hidden_shape=(1, 69, -1, 64)
 🟦 クエリを計算 query_states.shape=torch.Size([1, 64, 69, 64])
@@ -817,7 +832,7 @@
 🟦 RoPEを適用 query_states.shape=torch.Size([1, 64, 69, 64]), key_states.shape=torch.Size([1, 8, 69, 64])
 🟦 キーバリューキャッシュを更新 key_states.shape=torch.Size([1, 8, 69, 64]), value_states.shape=torch.Size([1, 8, 69, 64])
 🟦 使用するアテンション実装: eager_attention_forward
-🟩 eager_attention_forwardの開始 query.shape=torch.Size([1, 64, 69, 64]), key.shape=torch.Size([1, 8, 69, 64]), value.shape=torch.Size([1, 8, 69, 64]), scaling=0.125, dropout=0.0
+🟩 eager_attention_forwardの開始 query.shape=torch.Size([1, 64, 69, 64]), key.shape=torch.Size([1, 8, 69, 64]), value.shape=torch.Size([1, 8, 69, 64]), scaling=0.125, dropout=0.0 attention_mask.shape=torch.Size([1, 1, 69, 69])
 🟩 repeat_kvの開始 hidden_states.shape=torch.Size([1, 8, 69, 64]), hidden_states.dtype=torch.bfloat16, n_rep=8
 🟦 hidden_states.shape=torch.Size([1, 8, 8, 69, 64]), hidden_states.dtype=torch.bfloat16
 🟩 repeat_kvの完了 res.shape=torch.Size([1, 64, 69, 64]), res.dtype=torch.bfloat16
@@ -827,6 +842,7 @@
 🟩 repeat_kvの完了 res.shape=torch.Size([1, 64, 69, 64]), res.dtype=torch.bfloat16
 🟦 バリューを複製 value_states.shape=torch.Size([1, 64, 69, 64]), value_states.dtype=torch.bfloat16
 🟦 アテンションロジットを計算 attn_weights.shape=torch.Size([1, 64, 69, 69]), attn_weights.dtype=torch.bfloat16
+🟦 causal_mask.shape=torch.Size([1, 1, 69, 69]), causal_mask.dtype=torch.bfloat16
 🟦 因果マスク適用 attn_weights.shape=torch.Size([1, 64, 69, 69]), attn_weights.dtype=torch.bfloat16
 🟦 sinks.shape=torch.Size([1, 64, 69, 1]), sinks.dtype=torch.bfloat16
 🟦 シンクを追加 combined_logits.shape=torch.Size([1, 64, 69, 70]), combined_logits.dtype=torch.bfloat16
@@ -842,11 +858,13 @@
 🟩 RMSNormの順伝播開始 hidden_states.shape=torch.Size([1, 69, 2880]), hidden_states.dtype=torch.bfloat16
 🟦 アップキャスト input_dtype=torch.bfloat16 hidden_states.dtype=torch.float32
 🟩 RMSNormの順伝播完了 res.shape=torch.Size([1, 69, 2880]), res.dtype=torch.bfloat16
-🟩 GptOssDecoderLayerの順伝播開始 hidden_states.shape=torch.Size([1, 69, 2880]), hidden_states.dtype=torch.bfloat16, position_ids.shape=torch.Size([1, 69]), past_key_values=DynamicCache(layers=[DynamicSlidingWindowLayer, DynamicLayer, DynamicSlidingWindowLayer, DynamicLayer, DynamicSlidingWindowLayer, DynamicLayer, DynamicSlidingWindowLayer, DynamicLayer, DynamicSlidingWindowLayer, DynamicLayer, DynamicSlidingWindowLayer, DynamicLayer, DynamicSlidingWindowLayer, DynamicLayer, DynamicSlidingWindowLayer, DynamicLayer, DynamicSlidingWindowLayer, DynamicLayer, DynamicSlidingWindowLayer, DynamicLayer, DynamicSlidingWindowLayer, DynamicLayer, DynamicSlidingWindowLayer, DynamicLayer]), use_cache=True, cache_position.shape=torch.Size([69]), position_embeddings[0].shape=torch.Size([1, 69, 32]), position_embeddings[1].shape=torch.Size([1, 69, 32])
+🟦 MoE層の入力 hidden_states.shape=torch.Size([1, 69, 2880]), hidden_states.dtype=torch.bfloat16
+🟦 MoE層の出力 hidden_states.shape=torch.Size([1, 69, 2880]), hidden_states.dtype=torch.bfloat16
+🟩 GptOssDecoderLayerの順伝播開始 hidden_states.shape=torch.Size([1, 69, 2880]), hidden_states.dtype=torch.bfloat16, position_ids.shape=torch.Size([1, 69]), past_key_values=DynamicCache(layers=[DynamicSlidingWindowLayer, DynamicLayer, DynamicSlidingWindowLayer, DynamicLayer, DynamicSlidingWindowLayer, DynamicLayer, DynamicSlidingWindowLayer, DynamicLayer, DynamicSlidingWindowLayer, DynamicLayer, DynamicSlidingWindowLayer, DynamicLayer, DynamicSlidingWindowLayer, DynamicLayer, DynamicSlidingWindowLayer, DynamicLayer, DynamicSlidingWindowLayer, DynamicLayer, DynamicSlidingWindowLayer, DynamicLayer, DynamicSlidingWindowLayer, DynamicLayer, DynamicSlidingWindowLayer, DynamicLayer]), use_cache=True, cache_position.shape=torch.Size([69]), position_embeddings[0].shape=torch.Size([1, 69, 32]), position_embeddings[1].shape=torch.Size([1, 69, 32]), attention_mask.shape=torch.Size([1, 1, 69, 69])
 🟩 RMSNormの順伝播開始 hidden_states.shape=torch.Size([1, 69, 2880]), hidden_states.dtype=torch.bfloat16
 🟦 アップキャスト input_dtype=torch.bfloat16 hidden_states.dtype=torch.float32
 🟩 RMSNormの順伝播完了 res.shape=torch.Size([1, 69, 2880]), res.dtype=torch.bfloat16
-🟩 GptOssAttentionの順伝播開始 hidden_states.shape=torch.Size([1, 69, 2880]), position_embeddings[0].shape=torch.Size([1, 69, 32]), position_embeddings[1].shape=torch.Size([1, 69, 32]), past_key_values=DynamicCache(layers=[DynamicSlidingWindowLayer, DynamicLayer, DynamicSlidingWindowLayer, DynamicLayer, DynamicSlidingWindowLayer, DynamicLayer, DynamicSlidingWindowLayer, DynamicLayer, DynamicSlidingWindowLayer, DynamicLayer, DynamicSlidingWindowLayer, DynamicLayer, DynamicSlidingWindowLayer, DynamicLayer, DynamicSlidingWindowLayer, DynamicLayer, DynamicSlidingWindowLayer, DynamicLayer, DynamicSlidingWindowLayer, DynamicLayer, DynamicSlidingWindowLayer, DynamicLayer, DynamicSlidingWindowLayer, DynamicLayer]), cache_position.shape=torch.Size([69])
+🟩 GptOssAttentionの順伝播開始 hidden_states.shape=torch.Size([1, 69, 2880]), position_embeddings[0].shape=torch.Size([1, 69, 32]), position_embeddings[1].shape=torch.Size([1, 69, 32]), past_key_values=DynamicCache(layers=[DynamicSlidingWindowLayer, DynamicLayer, DynamicSlidingWindowLayer, DynamicLayer, DynamicSlidingWindowLayer, DynamicLayer, DynamicSlidingWindowLayer, DynamicLayer, DynamicSlidingWindowLayer, DynamicLayer, DynamicSlidingWindowLayer, DynamicLayer, DynamicSlidingWindowLayer, DynamicLayer, DynamicSlidingWindowLayer, DynamicLayer, DynamicSlidingWindowLayer, DynamicLayer, DynamicSlidingWindowLayer, DynamicLayer, DynamicSlidingWindowLayer, DynamicLayer, DynamicSlidingWindowLayer, DynamicLayer]), cache_position.shape=torch.Size([69]), attention_mask.shape=torch.Size([1, 1, 69, 69])
 🟦 input_shape=torch.Size([1, 69])
 🟦 hidden_shape=(1, 69, -1, 64)
 🟦 クエリを計算 query_states.shape=torch.Size([1, 64, 69, 64])
@@ -856,7 +874,7 @@
 🟦 RoPEを適用 query_states.shape=torch.Size([1, 64, 69, 64]), key_states.shape=torch.Size([1, 8, 69, 64])
 🟦 キーバリューキャッシュを更新 key_states.shape=torch.Size([1, 8, 69, 64]), value_states.shape=torch.Size([1, 8, 69, 64])
 🟦 使用するアテンション実装: eager_attention_forward
-🟩 eager_attention_forwardの開始 query.shape=torch.Size([1, 64, 69, 64]), key.shape=torch.Size([1, 8, 69, 64]), value.shape=torch.Size([1, 8, 69, 64]), scaling=0.125, dropout=0.0
+🟩 eager_attention_forwardの開始 query.shape=torch.Size([1, 64, 69, 64]), key.shape=torch.Size([1, 8, 69, 64]), value.shape=torch.Size([1, 8, 69, 64]), scaling=0.125, dropout=0.0 attention_mask.shape=torch.Size([1, 1, 69, 69])
 🟩 repeat_kvの開始 hidden_states.shape=torch.Size([1, 8, 69, 64]), hidden_states.dtype=torch.bfloat16, n_rep=8
 🟦 hidden_states.shape=torch.Size([1, 8, 8, 69, 64]), hidden_states.dtype=torch.bfloat16
 🟩 repeat_kvの完了 res.shape=torch.Size([1, 64, 69, 64]), res.dtype=torch.bfloat16
@@ -866,6 +884,7 @@
 🟩 repeat_kvの完了 res.shape=torch.Size([1, 64, 69, 64]), res.dtype=torch.bfloat16
 🟦 バリューを複製 value_states.shape=torch.Size([1, 64, 69, 64]), value_states.dtype=torch.bfloat16
 🟦 アテンションロジットを計算 attn_weights.shape=torch.Size([1, 64, 69, 69]), attn_weights.dtype=torch.bfloat16
+🟦 causal_mask.shape=torch.Size([1, 1, 69, 69]), causal_mask.dtype=torch.bfloat16
 🟦 因果マスク適用 attn_weights.shape=torch.Size([1, 64, 69, 69]), attn_weights.dtype=torch.bfloat16
 🟦 sinks.shape=torch.Size([1, 64, 69, 1]), sinks.dtype=torch.bfloat16
 🟦 シンクを追加 combined_logits.shape=torch.Size([1, 64, 69, 70]), combined_logits.dtype=torch.bfloat16
@@ -881,11 +900,13 @@
 🟩 RMSNormの順伝播開始 hidden_states.shape=torch.Size([1, 69, 2880]), hidden_states.dtype=torch.bfloat16
 🟦 アップキャスト input_dtype=torch.bfloat16 hidden_states.dtype=torch.float32
 🟩 RMSNormの順伝播完了 res.shape=torch.Size([1, 69, 2880]), res.dtype=torch.bfloat16
-🟩 GptOssDecoderLayerの順伝播開始 hidden_states.shape=torch.Size([1, 69, 2880]), hidden_states.dtype=torch.bfloat16, position_ids.shape=torch.Size([1, 69]), past_key_values=DynamicCache(layers=[DynamicSlidingWindowLayer, DynamicLayer, DynamicSlidingWindowLayer, DynamicLayer, DynamicSlidingWindowLayer, DynamicLayer, DynamicSlidingWindowLayer, DynamicLayer, DynamicSlidingWindowLayer, DynamicLayer, DynamicSlidingWindowLayer, DynamicLayer, DynamicSlidingWindowLayer, DynamicLayer, DynamicSlidingWindowLayer, DynamicLayer, DynamicSlidingWindowLayer, DynamicLayer, DynamicSlidingWindowLayer, DynamicLayer, DynamicSlidingWindowLayer, DynamicLayer, DynamicSlidingWindowLayer, DynamicLayer]), use_cache=True, cache_position.shape=torch.Size([69]), position_embeddings[0].shape=torch.Size([1, 69, 32]), position_embeddings[1].shape=torch.Size([1, 69, 32])
+🟦 MoE層の入力 hidden_states.shape=torch.Size([1, 69, 2880]), hidden_states.dtype=torch.bfloat16
+🟦 MoE層の出力 hidden_states.shape=torch.Size([1, 69, 2880]), hidden_states.dtype=torch.bfloat16
+🟩 GptOssDecoderLayerの順伝播開始 hidden_states.shape=torch.Size([1, 69, 2880]), hidden_states.dtype=torch.bfloat16, position_ids.shape=torch.Size([1, 69]), past_key_values=DynamicCache(layers=[DynamicSlidingWindowLayer, DynamicLayer, DynamicSlidingWindowLayer, DynamicLayer, DynamicSlidingWindowLayer, DynamicLayer, DynamicSlidingWindowLayer, DynamicLayer, DynamicSlidingWindowLayer, DynamicLayer, DynamicSlidingWindowLayer, DynamicLayer, DynamicSlidingWindowLayer, DynamicLayer, DynamicSlidingWindowLayer, DynamicLayer, DynamicSlidingWindowLayer, DynamicLayer, DynamicSlidingWindowLayer, DynamicLayer, DynamicSlidingWindowLayer, DynamicLayer, DynamicSlidingWindowLayer, DynamicLayer]), use_cache=True, cache_position.shape=torch.Size([69]), position_embeddings[0].shape=torch.Size([1, 69, 32]), position_embeddings[1].shape=torch.Size([1, 69, 32]), attention_mask.shape=torch.Size([1, 1, 69, 69])
 🟩 RMSNormの順伝播開始 hidden_states.shape=torch.Size([1, 69, 2880]), hidden_states.dtype=torch.bfloat16
 🟦 アップキャスト input_dtype=torch.bfloat16 hidden_states.dtype=torch.float32
 🟩 RMSNormの順伝播完了 res.shape=torch.Size([1, 69, 2880]), res.dtype=torch.bfloat16
-🟩 GptOssAttentionの順伝播開始 hidden_states.shape=torch.Size([1, 69, 2880]), position_embeddings[0].shape=torch.Size([1, 69, 32]), position_embeddings[1].shape=torch.Size([1, 69, 32]), past_key_values=DynamicCache(layers=[DynamicSlidingWindowLayer, DynamicLayer, DynamicSlidingWindowLayer, DynamicLayer, DynamicSlidingWindowLayer, DynamicLayer, DynamicSlidingWindowLayer, DynamicLayer, DynamicSlidingWindowLayer, DynamicLayer, DynamicSlidingWindowLayer, DynamicLayer, DynamicSlidingWindowLayer, DynamicLayer, DynamicSlidingWindowLayer, DynamicLayer, DynamicSlidingWindowLayer, DynamicLayer, DynamicSlidingWindowLayer, DynamicLayer, DynamicSlidingWindowLayer, DynamicLayer, DynamicSlidingWindowLayer, DynamicLayer]), cache_position.shape=torch.Size([69])
+🟩 GptOssAttentionの順伝播開始 hidden_states.shape=torch.Size([1, 69, 2880]), position_embeddings[0].shape=torch.Size([1, 69, 32]), position_embeddings[1].shape=torch.Size([1, 69, 32]), past_key_values=DynamicCache(layers=[DynamicSlidingWindowLayer, DynamicLayer, DynamicSlidingWindowLayer, DynamicLayer, DynamicSlidingWindowLayer, DynamicLayer, DynamicSlidingWindowLayer, DynamicLayer, DynamicSlidingWindowLayer, DynamicLayer, DynamicSlidingWindowLayer, DynamicLayer, DynamicSlidingWindowLayer, DynamicLayer, DynamicSlidingWindowLayer, DynamicLayer, DynamicSlidingWindowLayer, DynamicLayer, DynamicSlidingWindowLayer, DynamicLayer, DynamicSlidingWindowLayer, DynamicLayer, DynamicSlidingWindowLayer, DynamicLayer]), cache_position.shape=torch.Size([69]), attention_mask.shape=torch.Size([1, 1, 69, 69])
 🟦 input_shape=torch.Size([1, 69])
 🟦 hidden_shape=(1, 69, -1, 64)
 🟦 クエリを計算 query_states.shape=torch.Size([1, 64, 69, 64])
@@ -895,7 +916,7 @@
 🟦 RoPEを適用 query_states.shape=torch.Size([1, 64, 69, 64]), key_states.shape=torch.Size([1, 8, 69, 64])
 🟦 キーバリューキャッシュを更新 key_states.shape=torch.Size([1, 8, 69, 64]), value_states.shape=torch.Size([1, 8, 69, 64])
 🟦 使用するアテンション実装: eager_attention_forward
-🟩 eager_attention_forwardの開始 query.shape=torch.Size([1, 64, 69, 64]), key.shape=torch.Size([1, 8, 69, 64]), value.shape=torch.Size([1, 8, 69, 64]), scaling=0.125, dropout=0.0
+🟩 eager_attention_forwardの開始 query.shape=torch.Size([1, 64, 69, 64]), key.shape=torch.Size([1, 8, 69, 64]), value.shape=torch.Size([1, 8, 69, 64]), scaling=0.125, dropout=0.0 attention_mask.shape=torch.Size([1, 1, 69, 69])
 🟩 repeat_kvの開始 hidden_states.shape=torch.Size([1, 8, 69, 64]), hidden_states.dtype=torch.bfloat16, n_rep=8
 🟦 hidden_states.shape=torch.Size([1, 8, 8, 69, 64]), hidden_states.dtype=torch.bfloat16
 🟩 repeat_kvの完了 res.shape=torch.Size([1, 64, 69, 64]), res.dtype=torch.bfloat16
@@ -905,6 +926,7 @@
 🟩 repeat_kvの完了 res.shape=torch.Size([1, 64, 69, 64]), res.dtype=torch.bfloat16
 🟦 バリューを複製 value_states.shape=torch.Size([1, 64, 69, 64]), value_states.dtype=torch.bfloat16
 🟦 アテンションロジットを計算 attn_weights.shape=torch.Size([1, 64, 69, 69]), attn_weights.dtype=torch.bfloat16
+🟦 causal_mask.shape=torch.Size([1, 1, 69, 69]), causal_mask.dtype=torch.bfloat16
 🟦 因果マスク適用 attn_weights.shape=torch.Size([1, 64, 69, 69]), attn_weights.dtype=torch.bfloat16
 🟦 sinks.shape=torch.Size([1, 64, 69, 1]), sinks.dtype=torch.bfloat16
 🟦 シンクを追加 combined_logits.shape=torch.Size([1, 64, 69, 70]), combined_logits.dtype=torch.bfloat16
@@ -920,11 +942,13 @@
 🟩 RMSNormの順伝播開始 hidden_states.shape=torch.Size([1, 69, 2880]), hidden_states.dtype=torch.bfloat16
 🟦 アップキャスト input_dtype=torch.bfloat16 hidden_states.dtype=torch.float32
 🟩 RMSNormの順伝播完了 res.shape=torch.Size([1, 69, 2880]), res.dtype=torch.bfloat16
-🟩 GptOssDecoderLayerの順伝播開始 hidden_states.shape=torch.Size([1, 69, 2880]), hidden_states.dtype=torch.bfloat16, position_ids.shape=torch.Size([1, 69]), past_key_values=DynamicCache(layers=[DynamicSlidingWindowLayer, DynamicLayer, DynamicSlidingWindowLayer, DynamicLayer, DynamicSlidingWindowLayer, DynamicLayer, DynamicSlidingWindowLayer, DynamicLayer, DynamicSlidingWindowLayer, DynamicLayer, DynamicSlidingWindowLayer, DynamicLayer, DynamicSlidingWindowLayer, DynamicLayer, DynamicSlidingWindowLayer, DynamicLayer, DynamicSlidingWindowLayer, DynamicLayer, DynamicSlidingWindowLayer, DynamicLayer, DynamicSlidingWindowLayer, DynamicLayer, DynamicSlidingWindowLayer, DynamicLayer]), use_cache=True, cache_position.shape=torch.Size([69]), position_embeddings[0].shape=torch.Size([1, 69, 32]), position_embeddings[1].shape=torch.Size([1, 69, 32])
+🟦 MoE層の入力 hidden_states.shape=torch.Size([1, 69, 2880]), hidden_states.dtype=torch.bfloat16
+🟦 MoE層の出力 hidden_states.shape=torch.Size([1, 69, 2880]), hidden_states.dtype=torch.bfloat16
+🟩 GptOssDecoderLayerの順伝播開始 hidden_states.shape=torch.Size([1, 69, 2880]), hidden_states.dtype=torch.bfloat16, position_ids.shape=torch.Size([1, 69]), past_key_values=DynamicCache(layers=[DynamicSlidingWindowLayer, DynamicLayer, DynamicSlidingWindowLayer, DynamicLayer, DynamicSlidingWindowLayer, DynamicLayer, DynamicSlidingWindowLayer, DynamicLayer, DynamicSlidingWindowLayer, DynamicLayer, DynamicSlidingWindowLayer, DynamicLayer, DynamicSlidingWindowLayer, DynamicLayer, DynamicSlidingWindowLayer, DynamicLayer, DynamicSlidingWindowLayer, DynamicLayer, DynamicSlidingWindowLayer, DynamicLayer, DynamicSlidingWindowLayer, DynamicLayer, DynamicSlidingWindowLayer, DynamicLayer]), use_cache=True, cache_position.shape=torch.Size([69]), position_embeddings[0].shape=torch.Size([1, 69, 32]), position_embeddings[1].shape=torch.Size([1, 69, 32]), attention_mask.shape=torch.Size([1, 1, 69, 69])
 🟩 RMSNormの順伝播開始 hidden_states.shape=torch.Size([1, 69, 2880]), hidden_states.dtype=torch.bfloat16
 🟦 アップキャスト input_dtype=torch.bfloat16 hidden_states.dtype=torch.float32
 🟩 RMSNormの順伝播完了 res.shape=torch.Size([1, 69, 2880]), res.dtype=torch.bfloat16
-🟩 GptOssAttentionの順伝播開始 hidden_states.shape=torch.Size([1, 69, 2880]), position_embeddings[0].shape=torch.Size([1, 69, 32]), position_embeddings[1].shape=torch.Size([1, 69, 32]), past_key_values=DynamicCache(layers=[DynamicSlidingWindowLayer, DynamicLayer, DynamicSlidingWindowLayer, DynamicLayer, DynamicSlidingWindowLayer, DynamicLayer, DynamicSlidingWindowLayer, DynamicLayer, DynamicSlidingWindowLayer, DynamicLayer, DynamicSlidingWindowLayer, DynamicLayer, DynamicSlidingWindowLayer, DynamicLayer, DynamicSlidingWindowLayer, DynamicLayer, DynamicSlidingWindowLayer, DynamicLayer, DynamicSlidingWindowLayer, DynamicLayer, DynamicSlidingWindowLayer, DynamicLayer, DynamicSlidingWindowLayer, DynamicLayer]), cache_position.shape=torch.Size([69])
+🟩 GptOssAttentionの順伝播開始 hidden_states.shape=torch.Size([1, 69, 2880]), position_embeddings[0].shape=torch.Size([1, 69, 32]), position_embeddings[1].shape=torch.Size([1, 69, 32]), past_key_values=DynamicCache(layers=[DynamicSlidingWindowLayer, DynamicLayer, DynamicSlidingWindowLayer, DynamicLayer, DynamicSlidingWindowLayer, DynamicLayer, DynamicSlidingWindowLayer, DynamicLayer, DynamicSlidingWindowLayer, DynamicLayer, DynamicSlidingWindowLayer, DynamicLayer, DynamicSlidingWindowLayer, DynamicLayer, DynamicSlidingWindowLayer, DynamicLayer, DynamicSlidingWindowLayer, DynamicLayer, DynamicSlidingWindowLayer, DynamicLayer, DynamicSlidingWindowLayer, DynamicLayer, DynamicSlidingWindowLayer, DynamicLayer]), cache_position.shape=torch.Size([69]), attention_mask.shape=torch.Size([1, 1, 69, 69])
 🟦 input_shape=torch.Size([1, 69])
 🟦 hidden_shape=(1, 69, -1, 64)
 🟦 クエリを計算 query_states.shape=torch.Size([1, 64, 69, 64])
@@ -934,7 +958,7 @@
 🟦 RoPEを適用 query_states.shape=torch.Size([1, 64, 69, 64]), key_states.shape=torch.Size([1, 8, 69, 64])
 🟦 キーバリューキャッシュを更新 key_states.shape=torch.Size([1, 8, 69, 64]), value_states.shape=torch.Size([1, 8, 69, 64])
 🟦 使用するアテンション実装: eager_attention_forward
-🟩 eager_attention_forwardの開始 query.shape=torch.Size([1, 64, 69, 64]), key.shape=torch.Size([1, 8, 69, 64]), value.shape=torch.Size([1, 8, 69, 64]), scaling=0.125, dropout=0.0
+🟩 eager_attention_forwardの開始 query.shape=torch.Size([1, 64, 69, 64]), key.shape=torch.Size([1, 8, 69, 64]), value.shape=torch.Size([1, 8, 69, 64]), scaling=0.125, dropout=0.0 attention_mask.shape=torch.Size([1, 1, 69, 69])
 🟩 repeat_kvの開始 hidden_states.shape=torch.Size([1, 8, 69, 64]), hidden_states.dtype=torch.bfloat16, n_rep=8
 🟦 hidden_states.shape=torch.Size([1, 8, 8, 69, 64]), hidden_states.dtype=torch.bfloat16
 🟩 repeat_kvの完了 res.shape=torch.Size([1, 64, 69, 64]), res.dtype=torch.bfloat16
@@ -944,6 +968,7 @@
 🟩 repeat_kvの完了 res.shape=torch.Size([1, 64, 69, 64]), res.dtype=torch.bfloat16
 🟦 バリューを複製 value_states.shape=torch.Size([1, 64, 69, 64]), value_states.dtype=torch.bfloat16
 🟦 アテンションロジットを計算 attn_weights.shape=torch.Size([1, 64, 69, 69]), attn_weights.dtype=torch.bfloat16
+🟦 causal_mask.shape=torch.Size([1, 1, 69, 69]), causal_mask.dtype=torch.bfloat16
 🟦 因果マスク適用 attn_weights.shape=torch.Size([1, 64, 69, 69]), attn_weights.dtype=torch.bfloat16
 🟦 sinks.shape=torch.Size([1, 64, 69, 1]), sinks.dtype=torch.bfloat16
 🟦 シンクを追加 combined_logits.shape=torch.Size([1, 64, 69, 70]), combined_logits.dtype=torch.bfloat16
@@ -959,11 +984,13 @@
 🟩 RMSNormの順伝播開始 hidden_states.shape=torch.Size([1, 69, 2880]), hidden_states.dtype=torch.bfloat16
 🟦 アップキャスト input_dtype=torch.bfloat16 hidden_states.dtype=torch.float32
 🟩 RMSNormの順伝播完了 res.shape=torch.Size([1, 69, 2880]), res.dtype=torch.bfloat16
-🟩 GptOssDecoderLayerの順伝播開始 hidden_states.shape=torch.Size([1, 69, 2880]), hidden_states.dtype=torch.bfloat16, position_ids.shape=torch.Size([1, 69]), past_key_values=DynamicCache(layers=[DynamicSlidingWindowLayer, DynamicLayer, DynamicSlidingWindowLayer, DynamicLayer, DynamicSlidingWindowLayer, DynamicLayer, DynamicSlidingWindowLayer, DynamicLayer, DynamicSlidingWindowLayer, DynamicLayer, DynamicSlidingWindowLayer, DynamicLayer, DynamicSlidingWindowLayer, DynamicLayer, DynamicSlidingWindowLayer, DynamicLayer, DynamicSlidingWindowLayer, DynamicLayer, DynamicSlidingWindowLayer, DynamicLayer, DynamicSlidingWindowLayer, DynamicLayer, DynamicSlidingWindowLayer, DynamicLayer]), use_cache=True, cache_position.shape=torch.Size([69]), position_embeddings[0].shape=torch.Size([1, 69, 32]), position_embeddings[1].shape=torch.Size([1, 69, 32])
+🟦 MoE層の入力 hidden_states.shape=torch.Size([1, 69, 2880]), hidden_states.dtype=torch.bfloat16
+🟦 MoE層の出力 hidden_states.shape=torch.Size([1, 69, 2880]), hidden_states.dtype=torch.bfloat16
+🟩 GptOssDecoderLayerの順伝播開始 hidden_states.shape=torch.Size([1, 69, 2880]), hidden_states.dtype=torch.bfloat16, position_ids.shape=torch.Size([1, 69]), past_key_values=DynamicCache(layers=[DynamicSlidingWindowLayer, DynamicLayer, DynamicSlidingWindowLayer, DynamicLayer, DynamicSlidingWindowLayer, DynamicLayer, DynamicSlidingWindowLayer, DynamicLayer, DynamicSlidingWindowLayer, DynamicLayer, DynamicSlidingWindowLayer, DynamicLayer, DynamicSlidingWindowLayer, DynamicLayer, DynamicSlidingWindowLayer, DynamicLayer, DynamicSlidingWindowLayer, DynamicLayer, DynamicSlidingWindowLayer, DynamicLayer, DynamicSlidingWindowLayer, DynamicLayer, DynamicSlidingWindowLayer, DynamicLayer]), use_cache=True, cache_position.shape=torch.Size([69]), position_embeddings[0].shape=torch.Size([1, 69, 32]), position_embeddings[1].shape=torch.Size([1, 69, 32]), attention_mask.shape=torch.Size([1, 1, 69, 69])
 🟩 RMSNormの順伝播開始 hidden_states.shape=torch.Size([1, 69, 2880]), hidden_states.dtype=torch.bfloat16
 🟦 アップキャスト input_dtype=torch.bfloat16 hidden_states.dtype=torch.float32
 🟩 RMSNormの順伝播完了 res.shape=torch.Size([1, 69, 2880]), res.dtype=torch.bfloat16
-🟩 GptOssAttentionの順伝播開始 hidden_states.shape=torch.Size([1, 69, 2880]), position_embeddings[0].shape=torch.Size([1, 69, 32]), position_embeddings[1].shape=torch.Size([1, 69, 32]), past_key_values=DynamicCache(layers=[DynamicSlidingWindowLayer, DynamicLayer, DynamicSlidingWindowLayer, DynamicLayer, DynamicSlidingWindowLayer, DynamicLayer, DynamicSlidingWindowLayer, DynamicLayer, DynamicSlidingWindowLayer, DynamicLayer, DynamicSlidingWindowLayer, DynamicLayer, DynamicSlidingWindowLayer, DynamicLayer, DynamicSlidingWindowLayer, DynamicLayer, DynamicSlidingWindowLayer, DynamicLayer, DynamicSlidingWindowLayer, DynamicLayer, DynamicSlidingWindowLayer, DynamicLayer, DynamicSlidingWindowLayer, DynamicLayer]), cache_position.shape=torch.Size([69])
+🟩 GptOssAttentionの順伝播開始 hidden_states.shape=torch.Size([1, 69, 2880]), position_embeddings[0].shape=torch.Size([1, 69, 32]), position_embeddings[1].shape=torch.Size([1, 69, 32]), past_key_values=DynamicCache(layers=[DynamicSlidingWindowLayer, DynamicLayer, DynamicSlidingWindowLayer, DynamicLayer, DynamicSlidingWindowLayer, DynamicLayer, DynamicSlidingWindowLayer, DynamicLayer, DynamicSlidingWindowLayer, DynamicLayer, DynamicSlidingWindowLayer, DynamicLayer, DynamicSlidingWindowLayer, DynamicLayer, DynamicSlidingWindowLayer, DynamicLayer, DynamicSlidingWindowLayer, DynamicLayer, DynamicSlidingWindowLayer, DynamicLayer, DynamicSlidingWindowLayer, DynamicLayer, DynamicSlidingWindowLayer, DynamicLayer]), cache_position.shape=torch.Size([69]), attention_mask.shape=torch.Size([1, 1, 69, 69])
 🟦 input_shape=torch.Size([1, 69])
 🟦 hidden_shape=(1, 69, -1, 64)
 🟦 クエリを計算 query_states.shape=torch.Size([1, 64, 69, 64])
@@ -973,7 +1000,7 @@
 🟦 RoPEを適用 query_states.shape=torch.Size([1, 64, 69, 64]), key_states.shape=torch.Size([1, 8, 69, 64])
 🟦 キーバリューキャッシュを更新 key_states.shape=torch.Size([1, 8, 69, 64]), value_states.shape=torch.Size([1, 8, 69, 64])
 🟦 使用するアテンション実装: eager_attention_forward
-🟩 eager_attention_forwardの開始 query.shape=torch.Size([1, 64, 69, 64]), key.shape=torch.Size([1, 8, 69, 64]), value.shape=torch.Size([1, 8, 69, 64]), scaling=0.125, dropout=0.0
+🟩 eager_attention_forwardの開始 query.shape=torch.Size([1, 64, 69, 64]), key.shape=torch.Size([1, 8, 69, 64]), value.shape=torch.Size([1, 8, 69, 64]), scaling=0.125, dropout=0.0 attention_mask.shape=torch.Size([1, 1, 69, 69])
 🟩 repeat_kvの開始 hidden_states.shape=torch.Size([1, 8, 69, 64]), hidden_states.dtype=torch.bfloat16, n_rep=8
 🟦 hidden_states.shape=torch.Size([1, 8, 8, 69, 64]), hidden_states.dtype=torch.bfloat16
 🟩 repeat_kvの完了 res.shape=torch.Size([1, 64, 69, 64]), res.dtype=torch.bfloat16
@@ -983,6 +1010,7 @@
 🟩 repeat_kvの完了 res.shape=torch.Size([1, 64, 69, 64]), res.dtype=torch.bfloat16
 🟦 バリューを複製 value_states.shape=torch.Size([1, 64, 69, 64]), value_states.dtype=torch.bfloat16
 🟦 アテンションロジットを計算 attn_weights.shape=torch.Size([1, 64, 69, 69]), attn_weights.dtype=torch.bfloat16
+🟦 causal_mask.shape=torch.Size([1, 1, 69, 69]), causal_mask.dtype=torch.bfloat16
 🟦 因果マスク適用 attn_weights.shape=torch.Size([1, 64, 69, 69]), attn_weights.dtype=torch.bfloat16
 🟦 sinks.shape=torch.Size([1, 64, 69, 1]), sinks.dtype=torch.bfloat16
 🟦 シンクを追加 combined_logits.shape=torch.Size([1, 64, 69, 70]), combined_logits.dtype=torch.bfloat16
@@ -998,11 +1026,13 @@
 🟩 RMSNormの順伝播開始 hidden_states.shape=torch.Size([1, 69, 2880]), hidden_states.dtype=torch.bfloat16
 🟦 アップキャスト input_dtype=torch.bfloat16 hidden_states.dtype=torch.float32
 🟩 RMSNormの順伝播完了 res.shape=torch.Size([1, 69, 2880]), res.dtype=torch.bfloat16
-🟩 GptOssDecoderLayerの順伝播開始 hidden_states.shape=torch.Size([1, 69, 2880]), hidden_states.dtype=torch.bfloat16, position_ids.shape=torch.Size([1, 69]), past_key_values=DynamicCache(layers=[DynamicSlidingWindowLayer, DynamicLayer, DynamicSlidingWindowLayer, DynamicLayer, DynamicSlidingWindowLayer, DynamicLayer, DynamicSlidingWindowLayer, DynamicLayer, DynamicSlidingWindowLayer, DynamicLayer, DynamicSlidingWindowLayer, DynamicLayer, DynamicSlidingWindowLayer, DynamicLayer, DynamicSlidingWindowLayer, DynamicLayer, DynamicSlidingWindowLayer, DynamicLayer, DynamicSlidingWindowLayer, DynamicLayer, DynamicSlidingWindowLayer, DynamicLayer, DynamicSlidingWindowLayer, DynamicLayer]), use_cache=True, cache_position.shape=torch.Size([69]), position_embeddings[0].shape=torch.Size([1, 69, 32]), position_embeddings[1].shape=torch.Size([1, 69, 32])
+🟦 MoE層の入力 hidden_states.shape=torch.Size([1, 69, 2880]), hidden_states.dtype=torch.bfloat16
+🟦 MoE層の出力 hidden_states.shape=torch.Size([1, 69, 2880]), hidden_states.dtype=torch.bfloat16
+🟩 GptOssDecoderLayerの順伝播開始 hidden_states.shape=torch.Size([1, 69, 2880]), hidden_states.dtype=torch.bfloat16, position_ids.shape=torch.Size([1, 69]), past_key_values=DynamicCache(layers=[DynamicSlidingWindowLayer, DynamicLayer, DynamicSlidingWindowLayer, DynamicLayer, DynamicSlidingWindowLayer, DynamicLayer, DynamicSlidingWindowLayer, DynamicLayer, DynamicSlidingWindowLayer, DynamicLayer, DynamicSlidingWindowLayer, DynamicLayer, DynamicSlidingWindowLayer, DynamicLayer, DynamicSlidingWindowLayer, DynamicLayer, DynamicSlidingWindowLayer, DynamicLayer, DynamicSlidingWindowLayer, DynamicLayer, DynamicSlidingWindowLayer, DynamicLayer, DynamicSlidingWindowLayer, DynamicLayer]), use_cache=True, cache_position.shape=torch.Size([69]), position_embeddings[0].shape=torch.Size([1, 69, 32]), position_embeddings[1].shape=torch.Size([1, 69, 32]), attention_mask.shape=torch.Size([1, 1, 69, 69])
 🟩 RMSNormの順伝播開始 hidden_states.shape=torch.Size([1, 69, 2880]), hidden_states.dtype=torch.bfloat16
 🟦 アップキャスト input_dtype=torch.bfloat16 hidden_states.dtype=torch.float32
 🟩 RMSNormの順伝播完了 res.shape=torch.Size([1, 69, 2880]), res.dtype=torch.bfloat16
-🟩 GptOssAttentionの順伝播開始 hidden_states.shape=torch.Size([1, 69, 2880]), position_embeddings[0].shape=torch.Size([1, 69, 32]), position_embeddings[1].shape=torch.Size([1, 69, 32]), past_key_values=DynamicCache(layers=[DynamicSlidingWindowLayer, DynamicLayer, DynamicSlidingWindowLayer, DynamicLayer, DynamicSlidingWindowLayer, DynamicLayer, DynamicSlidingWindowLayer, DynamicLayer, DynamicSlidingWindowLayer, DynamicLayer, DynamicSlidingWindowLayer, DynamicLayer, DynamicSlidingWindowLayer, DynamicLayer, DynamicSlidingWindowLayer, DynamicLayer, DynamicSlidingWindowLayer, DynamicLayer, DynamicSlidingWindowLayer, DynamicLayer, DynamicSlidingWindowLayer, DynamicLayer, DynamicSlidingWindowLayer, DynamicLayer]), cache_position.shape=torch.Size([69])
+🟩 GptOssAttentionの順伝播開始 hidden_states.shape=torch.Size([1, 69, 2880]), position_embeddings[0].shape=torch.Size([1, 69, 32]), position_embeddings[1].shape=torch.Size([1, 69, 32]), past_key_values=DynamicCache(layers=[DynamicSlidingWindowLayer, DynamicLayer, DynamicSlidingWindowLayer, DynamicLayer, DynamicSlidingWindowLayer, DynamicLayer, DynamicSlidingWindowLayer, DynamicLayer, DynamicSlidingWindowLayer, DynamicLayer, DynamicSlidingWindowLayer, DynamicLayer, DynamicSlidingWindowLayer, DynamicLayer, DynamicSlidingWindowLayer, DynamicLayer, DynamicSlidingWindowLayer, DynamicLayer, DynamicSlidingWindowLayer, DynamicLayer, DynamicSlidingWindowLayer, DynamicLayer, DynamicSlidingWindowLayer, DynamicLayer]), cache_position.shape=torch.Size([69]), attention_mask.shape=torch.Size([1, 1, 69, 69])
 🟦 input_shape=torch.Size([1, 69])
 🟦 hidden_shape=(1, 69, -1, 64)
 🟦 クエリを計算 query_states.shape=torch.Size([1, 64, 69, 64])
@@ -1012,7 +1042,7 @@
 🟦 RoPEを適用 query_states.shape=torch.Size([1, 64, 69, 64]), key_states.shape=torch.Size([1, 8, 69, 64])
 🟦 キーバリューキャッシュを更新 key_states.shape=torch.Size([1, 8, 69, 64]), value_states.shape=torch.Size([1, 8, 69, 64])
 🟦 使用するアテンション実装: eager_attention_forward
-🟩 eager_attention_forwardの開始 query.shape=torch.Size([1, 64, 69, 64]), key.shape=torch.Size([1, 8, 69, 64]), value.shape=torch.Size([1, 8, 69, 64]), scaling=0.125, dropout=0.0
+🟩 eager_attention_forwardの開始 query.shape=torch.Size([1, 64, 69, 64]), key.shape=torch.Size([1, 8, 69, 64]), value.shape=torch.Size([1, 8, 69, 64]), scaling=0.125, dropout=0.0 attention_mask.shape=torch.Size([1, 1, 69, 69])
 🟩 repeat_kvの開始 hidden_states.shape=torch.Size([1, 8, 69, 64]), hidden_states.dtype=torch.bfloat16, n_rep=8
 🟦 hidden_states.shape=torch.Size([1, 8, 8, 69, 64]), hidden_states.dtype=torch.bfloat16
 🟩 repeat_kvの完了 res.shape=torch.Size([1, 64, 69, 64]), res.dtype=torch.bfloat16
@@ -1022,6 +1052,7 @@
 🟩 repeat_kvの完了 res.shape=torch.Size([1, 64, 69, 64]), res.dtype=torch.bfloat16
 🟦 バリューを複製 value_states.shape=torch.Size([1, 64, 69, 64]), value_states.dtype=torch.bfloat16
 🟦 アテンションロジットを計算 attn_weights.shape=torch.Size([1, 64, 69, 69]), attn_weights.dtype=torch.bfloat16
+🟦 causal_mask.shape=torch.Size([1, 1, 69, 69]), causal_mask.dtype=torch.bfloat16
 🟦 因果マスク適用 attn_weights.shape=torch.Size([1, 64, 69, 69]), attn_weights.dtype=torch.bfloat16
 🟦 sinks.shape=torch.Size([1, 64, 69, 1]), sinks.dtype=torch.bfloat16
 🟦 シンクを追加 combined_logits.shape=torch.Size([1, 64, 69, 70]), combined_logits.dtype=torch.bfloat16
@@ -1037,11 +1068,13 @@
 🟩 RMSNormの順伝播開始 hidden_states.shape=torch.Size([1, 69, 2880]), hidden_states.dtype=torch.bfloat16
 🟦 アップキャスト input_dtype=torch.bfloat16 hidden_states.dtype=torch.float32
 🟩 RMSNormの順伝播完了 res.shape=torch.Size([1, 69, 2880]), res.dtype=torch.bfloat16
-🟩 GptOssDecoderLayerの順伝播開始 hidden_states.shape=torch.Size([1, 69, 2880]), hidden_states.dtype=torch.bfloat16, position_ids.shape=torch.Size([1, 69]), past_key_values=DynamicCache(layers=[DynamicSlidingWindowLayer, DynamicLayer, DynamicSlidingWindowLayer, DynamicLayer, DynamicSlidingWindowLayer, DynamicLayer, DynamicSlidingWindowLayer, DynamicLayer, DynamicSlidingWindowLayer, DynamicLayer, DynamicSlidingWindowLayer, DynamicLayer, DynamicSlidingWindowLayer, DynamicLayer, DynamicSlidingWindowLayer, DynamicLayer, DynamicSlidingWindowLayer, DynamicLayer, DynamicSlidingWindowLayer, DynamicLayer, DynamicSlidingWindowLayer, DynamicLayer, DynamicSlidingWindowLayer, DynamicLayer]), use_cache=True, cache_position.shape=torch.Size([69]), position_embeddings[0].shape=torch.Size([1, 69, 32]), position_embeddings[1].shape=torch.Size([1, 69, 32])
+🟦 MoE層の入力 hidden_states.shape=torch.Size([1, 69, 2880]), hidden_states.dtype=torch.bfloat16
+🟦 MoE層の出力 hidden_states.shape=torch.Size([1, 69, 2880]), hidden_states.dtype=torch.bfloat16
+🟩 GptOssDecoderLayerの順伝播開始 hidden_states.shape=torch.Size([1, 69, 2880]), hidden_states.dtype=torch.bfloat16, position_ids.shape=torch.Size([1, 69]), past_key_values=DynamicCache(layers=[DynamicSlidingWindowLayer, DynamicLayer, DynamicSlidingWindowLayer, DynamicLayer, DynamicSlidingWindowLayer, DynamicLayer, DynamicSlidingWindowLayer, DynamicLayer, DynamicSlidingWindowLayer, DynamicLayer, DynamicSlidingWindowLayer, DynamicLayer, DynamicSlidingWindowLayer, DynamicLayer, DynamicSlidingWindowLayer, DynamicLayer, DynamicSlidingWindowLayer, DynamicLayer, DynamicSlidingWindowLayer, DynamicLayer, DynamicSlidingWindowLayer, DynamicLayer, DynamicSlidingWindowLayer, DynamicLayer]), use_cache=True, cache_position.shape=torch.Size([69]), position_embeddings[0].shape=torch.Size([1, 69, 32]), position_embeddings[1].shape=torch.Size([1, 69, 32]), attention_mask.shape=torch.Size([1, 1, 69, 69])
 🟩 RMSNormの順伝播開始 hidden_states.shape=torch.Size([1, 69, 2880]), hidden_states.dtype=torch.bfloat16
 🟦 アップキャスト input_dtype=torch.bfloat16 hidden_states.dtype=torch.float32
 🟩 RMSNormの順伝播完了 res.shape=torch.Size([1, 69, 2880]), res.dtype=torch.bfloat16
-🟩 GptOssAttentionの順伝播開始 hidden_states.shape=torch.Size([1, 69, 2880]), position_embeddings[0].shape=torch.Size([1, 69, 32]), position_embeddings[1].shape=torch.Size([1, 69, 32]), past_key_values=DynamicCache(layers=[DynamicSlidingWindowLayer, DynamicLayer, DynamicSlidingWindowLayer, DynamicLayer, DynamicSlidingWindowLayer, DynamicLayer, DynamicSlidingWindowLayer, DynamicLayer, DynamicSlidingWindowLayer, DynamicLayer, DynamicSlidingWindowLayer, DynamicLayer, DynamicSlidingWindowLayer, DynamicLayer, DynamicSlidingWindowLayer, DynamicLayer, DynamicSlidingWindowLayer, DynamicLayer, DynamicSlidingWindowLayer, DynamicLayer, DynamicSlidingWindowLayer, DynamicLayer, DynamicSlidingWindowLayer, DynamicLayer]), cache_position.shape=torch.Size([69])
+🟩 GptOssAttentionの順伝播開始 hidden_states.shape=torch.Size([1, 69, 2880]), position_embeddings[0].shape=torch.Size([1, 69, 32]), position_embeddings[1].shape=torch.Size([1, 69, 32]), past_key_values=DynamicCache(layers=[DynamicSlidingWindowLayer, DynamicLayer, DynamicSlidingWindowLayer, DynamicLayer, DynamicSlidingWindowLayer, DynamicLayer, DynamicSlidingWindowLayer, DynamicLayer, DynamicSlidingWindowLayer, DynamicLayer, DynamicSlidingWindowLayer, DynamicLayer, DynamicSlidingWindowLayer, DynamicLayer, DynamicSlidingWindowLayer, DynamicLayer, DynamicSlidingWindowLayer, DynamicLayer, DynamicSlidingWindowLayer, DynamicLayer, DynamicSlidingWindowLayer, DynamicLayer, DynamicSlidingWindowLayer, DynamicLayer]), cache_position.shape=torch.Size([69]), attention_mask.shape=torch.Size([1, 1, 69, 69])
 🟦 input_shape=torch.Size([1, 69])
 🟦 hidden_shape=(1, 69, -1, 64)
 🟦 クエリを計算 query_states.shape=torch.Size([1, 64, 69, 64])
@@ -1051,7 +1084,7 @@
 🟦 RoPEを適用 query_states.shape=torch.Size([1, 64, 69, 64]), key_states.shape=torch.Size([1, 8, 69, 64])
 🟦 キーバリューキャッシュを更新 key_states.shape=torch.Size([1, 8, 69, 64]), value_states.shape=torch.Size([1, 8, 69, 64])
 🟦 使用するアテンション実装: eager_attention_forward
-🟩 eager_attention_forwardの開始 query.shape=torch.Size([1, 64, 69, 64]), key.shape=torch.Size([1, 8, 69, 64]), value.shape=torch.Size([1, 8, 69, 64]), scaling=0.125, dropout=0.0
+🟩 eager_attention_forwardの開始 query.shape=torch.Size([1, 64, 69, 64]), key.shape=torch.Size([1, 8, 69, 64]), value.shape=torch.Size([1, 8, 69, 64]), scaling=0.125, dropout=0.0 attention_mask.shape=torch.Size([1, 1, 69, 69])
 🟩 repeat_kvの開始 hidden_states.shape=torch.Size([1, 8, 69, 64]), hidden_states.dtype=torch.bfloat16, n_rep=8
 🟦 hidden_states.shape=torch.Size([1, 8, 8, 69, 64]), hidden_states.dtype=torch.bfloat16
 🟩 repeat_kvの完了 res.shape=torch.Size([1, 64, 69, 64]), res.dtype=torch.bfloat16
@@ -1061,6 +1094,7 @@
 🟩 repeat_kvの完了 res.shape=torch.Size([1, 64, 69, 64]), res.dtype=torch.bfloat16
 🟦 バリューを複製 value_states.shape=torch.Size([1, 64, 69, 64]), value_states.dtype=torch.bfloat16
 🟦 アテンションロジットを計算 attn_weights.shape=torch.Size([1, 64, 69, 69]), attn_weights.dtype=torch.bfloat16
+🟦 causal_mask.shape=torch.Size([1, 1, 69, 69]), causal_mask.dtype=torch.bfloat16
 🟦 因果マスク適用 attn_weights.shape=torch.Size([1, 64, 69, 69]), attn_weights.dtype=torch.bfloat16
 🟦 sinks.shape=torch.Size([1, 64, 69, 1]), sinks.dtype=torch.bfloat16
 🟦 シンクを追加 combined_logits.shape=torch.Size([1, 64, 69, 70]), combined_logits.dtype=torch.bfloat16
@@ -1076,11 +1110,13 @@
 🟩 RMSNormの順伝播開始 hidden_states.shape=torch.Size([1, 69, 2880]), hidden_states.dtype=torch.bfloat16
 🟦 アップキャスト input_dtype=torch.bfloat16 hidden_states.dtype=torch.float32
 🟩 RMSNormの順伝播完了 res.shape=torch.Size([1, 69, 2880]), res.dtype=torch.bfloat16
-🟩 GptOssDecoderLayerの順伝播開始 hidden_states.shape=torch.Size([1, 69, 2880]), hidden_states.dtype=torch.bfloat16, position_ids.shape=torch.Size([1, 69]), past_key_values=DynamicCache(layers=[DynamicSlidingWindowLayer, DynamicLayer, DynamicSlidingWindowLayer, DynamicLayer, DynamicSlidingWindowLayer, DynamicLayer, DynamicSlidingWindowLayer, DynamicLayer, DynamicSlidingWindowLayer, DynamicLayer, DynamicSlidingWindowLayer, DynamicLayer, DynamicSlidingWindowLayer, DynamicLayer, DynamicSlidingWindowLayer, DynamicLayer, DynamicSlidingWindowLayer, DynamicLayer, DynamicSlidingWindowLayer, DynamicLayer, DynamicSlidingWindowLayer, DynamicLayer, DynamicSlidingWindowLayer, DynamicLayer]), use_cache=True, cache_position.shape=torch.Size([69]), position_embeddings[0].shape=torch.Size([1, 69, 32]), position_embeddings[1].shape=torch.Size([1, 69, 32])
+🟦 MoE層の入力 hidden_states.shape=torch.Size([1, 69, 2880]), hidden_states.dtype=torch.bfloat16
+🟦 MoE層の出力 hidden_states.shape=torch.Size([1, 69, 2880]), hidden_states.dtype=torch.bfloat16
+🟩 GptOssDecoderLayerの順伝播開始 hidden_states.shape=torch.Size([1, 69, 2880]), hidden_states.dtype=torch.bfloat16, position_ids.shape=torch.Size([1, 69]), past_key_values=DynamicCache(layers=[DynamicSlidingWindowLayer, DynamicLayer, DynamicSlidingWindowLayer, DynamicLayer, DynamicSlidingWindowLayer, DynamicLayer, DynamicSlidingWindowLayer, DynamicLayer, DynamicSlidingWindowLayer, DynamicLayer, DynamicSlidingWindowLayer, DynamicLayer, DynamicSlidingWindowLayer, DynamicLayer, DynamicSlidingWindowLayer, DynamicLayer, DynamicSlidingWindowLayer, DynamicLayer, DynamicSlidingWindowLayer, DynamicLayer, DynamicSlidingWindowLayer, DynamicLayer, DynamicSlidingWindowLayer, DynamicLayer]), use_cache=True, cache_position.shape=torch.Size([69]), position_embeddings[0].shape=torch.Size([1, 69, 32]), position_embeddings[1].shape=torch.Size([1, 69, 32]), attention_mask.shape=torch.Size([1, 1, 69, 69])
 🟩 RMSNormの順伝播開始 hidden_states.shape=torch.Size([1, 69, 2880]), hidden_states.dtype=torch.bfloat16
 🟦 アップキャスト input_dtype=torch.bfloat16 hidden_states.dtype=torch.float32
 🟩 RMSNormの順伝播完了 res.shape=torch.Size([1, 69, 2880]), res.dtype=torch.bfloat16
-🟩 GptOssAttentionの順伝播開始 hidden_states.shape=torch.Size([1, 69, 2880]), position_embeddings[0].shape=torch.Size([1, 69, 32]), position_embeddings[1].shape=torch.Size([1, 69, 32]), past_key_values=DynamicCache(layers=[DynamicSlidingWindowLayer, DynamicLayer, DynamicSlidingWindowLayer, DynamicLayer, DynamicSlidingWindowLayer, DynamicLayer, DynamicSlidingWindowLayer, DynamicLayer, DynamicSlidingWindowLayer, DynamicLayer, DynamicSlidingWindowLayer, DynamicLayer, DynamicSlidingWindowLayer, DynamicLayer, DynamicSlidingWindowLayer, DynamicLayer, DynamicSlidingWindowLayer, DynamicLayer, DynamicSlidingWindowLayer, DynamicLayer, DynamicSlidingWindowLayer, DynamicLayer, DynamicSlidingWindowLayer, DynamicLayer]), cache_position.shape=torch.Size([69])
+🟩 GptOssAttentionの順伝播開始 hidden_states.shape=torch.Size([1, 69, 2880]), position_embeddings[0].shape=torch.Size([1, 69, 32]), position_embeddings[1].shape=torch.Size([1, 69, 32]), past_key_values=DynamicCache(layers=[DynamicSlidingWindowLayer, DynamicLayer, DynamicSlidingWindowLayer, DynamicLayer, DynamicSlidingWindowLayer, DynamicLayer, DynamicSlidingWindowLayer, DynamicLayer, DynamicSlidingWindowLayer, DynamicLayer, DynamicSlidingWindowLayer, DynamicLayer, DynamicSlidingWindowLayer, DynamicLayer, DynamicSlidingWindowLayer, DynamicLayer, DynamicSlidingWindowLayer, DynamicLayer, DynamicSlidingWindowLayer, DynamicLayer, DynamicSlidingWindowLayer, DynamicLayer, DynamicSlidingWindowLayer, DynamicLayer]), cache_position.shape=torch.Size([69]), attention_mask.shape=torch.Size([1, 1, 69, 69])
 🟦 input_shape=torch.Size([1, 69])
 🟦 hidden_shape=(1, 69, -1, 64)
 🟦 クエリを計算 query_states.shape=torch.Size([1, 64, 69, 64])
@@ -1090,7 +1126,7 @@
 🟦 RoPEを適用 query_states.shape=torch.Size([1, 64, 69, 64]), key_states.shape=torch.Size([1, 8, 69, 64])
 🟦 キーバリューキャッシュを更新 key_states.shape=torch.Size([1, 8, 69, 64]), value_states.shape=torch.Size([1, 8, 69, 64])
 🟦 使用するアテンション実装: eager_attention_forward
-🟩 eager_attention_forwardの開始 query.shape=torch.Size([1, 64, 69, 64]), key.shape=torch.Size([1, 8, 69, 64]), value.shape=torch.Size([1, 8, 69, 64]), scaling=0.125, dropout=0.0
+🟩 eager_attention_forwardの開始 query.shape=torch.Size([1, 64, 69, 64]), key.shape=torch.Size([1, 8, 69, 64]), value.shape=torch.Size([1, 8, 69, 64]), scaling=0.125, dropout=0.0 attention_mask.shape=torch.Size([1, 1, 69, 69])
 🟩 repeat_kvの開始 hidden_states.shape=torch.Size([1, 8, 69, 64]), hidden_states.dtype=torch.bfloat16, n_rep=8
 🟦 hidden_states.shape=torch.Size([1, 8, 8, 69, 64]), hidden_states.dtype=torch.bfloat16
 🟩 repeat_kvの完了 res.shape=torch.Size([1, 64, 69, 64]), res.dtype=torch.bfloat16
@@ -1100,6 +1136,7 @@
 🟩 repeat_kvの完了 res.shape=torch.Size([1, 64, 69, 64]), res.dtype=torch.bfloat16
 🟦 バリューを複製 value_states.shape=torch.Size([1, 64, 69, 64]), value_states.dtype=torch.bfloat16
 🟦 アテンションロジットを計算 attn_weights.shape=torch.Size([1, 64, 69, 69]), attn_weights.dtype=torch.bfloat16
+🟦 causal_mask.shape=torch.Size([1, 1, 69, 69]), causal_mask.dtype=torch.bfloat16
 🟦 因果マスク適用 attn_weights.shape=torch.Size([1, 64, 69, 69]), attn_weights.dtype=torch.bfloat16
 🟦 sinks.shape=torch.Size([1, 64, 69, 1]), sinks.dtype=torch.bfloat16
 🟦 シンクを追加 combined_logits.shape=torch.Size([1, 64, 69, 70]), combined_logits.dtype=torch.bfloat16
@@ -1115,11 +1152,13 @@
 🟩 RMSNormの順伝播開始 hidden_states.shape=torch.Size([1, 69, 2880]), hidden_states.dtype=torch.bfloat16
 🟦 アップキャスト input_dtype=torch.bfloat16 hidden_states.dtype=torch.float32
 🟩 RMSNormの順伝播完了 res.shape=torch.Size([1, 69, 2880]), res.dtype=torch.bfloat16
-🟩 GptOssDecoderLayerの順伝播開始 hidden_states.shape=torch.Size([1, 69, 2880]), hidden_states.dtype=torch.bfloat16, position_ids.shape=torch.Size([1, 69]), past_key_values=DynamicCache(layers=[DynamicSlidingWindowLayer, DynamicLayer, DynamicSlidingWindowLayer, DynamicLayer, DynamicSlidingWindowLayer, DynamicLayer, DynamicSlidingWindowLayer, DynamicLayer, DynamicSlidingWindowLayer, DynamicLayer, DynamicSlidingWindowLayer, DynamicLayer, DynamicSlidingWindowLayer, DynamicLayer, DynamicSlidingWindowLayer, DynamicLayer, DynamicSlidingWindowLayer, DynamicLayer, DynamicSlidingWindowLayer, DynamicLayer, DynamicSlidingWindowLayer, DynamicLayer, DynamicSlidingWindowLayer, DynamicLayer]), use_cache=True, cache_position.shape=torch.Size([69]), position_embeddings[0].shape=torch.Size([1, 69, 32]), position_embeddings[1].shape=torch.Size([1, 69, 32])
+🟦 MoE層の入力 hidden_states.shape=torch.Size([1, 69, 2880]), hidden_states.dtype=torch.bfloat16
+🟦 MoE層の出力 hidden_states.shape=torch.Size([1, 69, 2880]), hidden_states.dtype=torch.bfloat16
+🟩 GptOssDecoderLayerの順伝播開始 hidden_states.shape=torch.Size([1, 69, 2880]), hidden_states.dtype=torch.bfloat16, position_ids.shape=torch.Size([1, 69]), past_key_values=DynamicCache(layers=[DynamicSlidingWindowLayer, DynamicLayer, DynamicSlidingWindowLayer, DynamicLayer, DynamicSlidingWindowLayer, DynamicLayer, DynamicSlidingWindowLayer, DynamicLayer, DynamicSlidingWindowLayer, DynamicLayer, DynamicSlidingWindowLayer, DynamicLayer, DynamicSlidingWindowLayer, DynamicLayer, DynamicSlidingWindowLayer, DynamicLayer, DynamicSlidingWindowLayer, DynamicLayer, DynamicSlidingWindowLayer, DynamicLayer, DynamicSlidingWindowLayer, DynamicLayer, DynamicSlidingWindowLayer, DynamicLayer]), use_cache=True, cache_position.shape=torch.Size([69]), position_embeddings[0].shape=torch.Size([1, 69, 32]), position_embeddings[1].shape=torch.Size([1, 69, 32]), attention_mask.shape=torch.Size([1, 1, 69, 69])
 🟩 RMSNormの順伝播開始 hidden_states.shape=torch.Size([1, 69, 2880]), hidden_states.dtype=torch.bfloat16
 🟦 アップキャスト input_dtype=torch.bfloat16 hidden_states.dtype=torch.float32
 🟩 RMSNormの順伝播完了 res.shape=torch.Size([1, 69, 2880]), res.dtype=torch.bfloat16
-🟩 GptOssAttentionの順伝播開始 hidden_states.shape=torch.Size([1, 69, 2880]), position_embeddings[0].shape=torch.Size([1, 69, 32]), position_embeddings[1].shape=torch.Size([1, 69, 32]), past_key_values=DynamicCache(layers=[DynamicSlidingWindowLayer, DynamicLayer, DynamicSlidingWindowLayer, DynamicLayer, DynamicSlidingWindowLayer, DynamicLayer, DynamicSlidingWindowLayer, DynamicLayer, DynamicSlidingWindowLayer, DynamicLayer, DynamicSlidingWindowLayer, DynamicLayer, DynamicSlidingWindowLayer, DynamicLayer, DynamicSlidingWindowLayer, DynamicLayer, DynamicSlidingWindowLayer, DynamicLayer, DynamicSlidingWindowLayer, DynamicLayer, DynamicSlidingWindowLayer, DynamicLayer, DynamicSlidingWindowLayer, DynamicLayer]), cache_position.shape=torch.Size([69])
+🟩 GptOssAttentionの順伝播開始 hidden_states.shape=torch.Size([1, 69, 2880]), position_embeddings[0].shape=torch.Size([1, 69, 32]), position_embeddings[1].shape=torch.Size([1, 69, 32]), past_key_values=DynamicCache(layers=[DynamicSlidingWindowLayer, DynamicLayer, DynamicSlidingWindowLayer, DynamicLayer, DynamicSlidingWindowLayer, DynamicLayer, DynamicSlidingWindowLayer, DynamicLayer, DynamicSlidingWindowLayer, DynamicLayer, DynamicSlidingWindowLayer, DynamicLayer, DynamicSlidingWindowLayer, DynamicLayer, DynamicSlidingWindowLayer, DynamicLayer, DynamicSlidingWindowLayer, DynamicLayer, DynamicSlidingWindowLayer, DynamicLayer, DynamicSlidingWindowLayer, DynamicLayer, DynamicSlidingWindowLayer, DynamicLayer]), cache_position.shape=torch.Size([69]), attention_mask.shape=torch.Size([1, 1, 69, 69])
 🟦 input_shape=torch.Size([1, 69])
 🟦 hidden_shape=(1, 69, -1, 64)
 🟦 クエリを計算 query_states.shape=torch.Size([1, 64, 69, 64])
@@ -1129,7 +1168,7 @@
 🟦 RoPEを適用 query_states.shape=torch.Size([1, 64, 69, 64]), key_states.shape=torch.Size([1, 8, 69, 64])
 🟦 キーバリューキャッシュを更新 key_states.shape=torch.Size([1, 8, 69, 64]), value_states.shape=torch.Size([1, 8, 69, 64])
 🟦 使用するアテンション実装: eager_attention_forward
-🟩 eager_attention_forwardの開始 query.shape=torch.Size([1, 64, 69, 64]), key.shape=torch.Size([1, 8, 69, 64]), value.shape=torch.Size([1, 8, 69, 64]), scaling=0.125, dropout=0.0
+🟩 eager_attention_forwardの開始 query.shape=torch.Size([1, 64, 69, 64]), key.shape=torch.Size([1, 8, 69, 64]), value.shape=torch.Size([1, 8, 69, 64]), scaling=0.125, dropout=0.0 attention_mask.shape=torch.Size([1, 1, 69, 69])
 🟩 repeat_kvの開始 hidden_states.shape=torch.Size([1, 8, 69, 64]), hidden_states.dtype=torch.bfloat16, n_rep=8
 🟦 hidden_states.shape=torch.Size([1, 8, 8, 69, 64]), hidden_states.dtype=torch.bfloat16
 🟩 repeat_kvの完了 res.shape=torch.Size([1, 64, 69, 64]), res.dtype=torch.bfloat16
@@ -1139,6 +1178,7 @@
 🟩 repeat_kvの完了 res.shape=torch.Size([1, 64, 69, 64]), res.dtype=torch.bfloat16
 🟦 バリューを複製 value_states.shape=torch.Size([1, 64, 69, 64]), value_states.dtype=torch.bfloat16
 🟦 アテンションロジットを計算 attn_weights.shape=torch.Size([1, 64, 69, 69]), attn_weights.dtype=torch.bfloat16
+🟦 causal_mask.shape=torch.Size([1, 1, 69, 69]), causal_mask.dtype=torch.bfloat16
 🟦 因果マスク適用 attn_weights.shape=torch.Size([1, 64, 69, 69]), attn_weights.dtype=torch.bfloat16
 🟦 sinks.shape=torch.Size([1, 64, 69, 1]), sinks.dtype=torch.bfloat16
 🟦 シンクを追加 combined_logits.shape=torch.Size([1, 64, 69, 70]), combined_logits.dtype=torch.bfloat16
@@ -1154,11 +1194,13 @@
 🟩 RMSNormの順伝播開始 hidden_states.shape=torch.Size([1, 69, 2880]), hidden_states.dtype=torch.bfloat16
 🟦 アップキャスト input_dtype=torch.bfloat16 hidden_states.dtype=torch.float32
 🟩 RMSNormの順伝播完了 res.shape=torch.Size([1, 69, 2880]), res.dtype=torch.bfloat16
-🟩 GptOssDecoderLayerの順伝播開始 hidden_states.shape=torch.Size([1, 69, 2880]), hidden_states.dtype=torch.bfloat16, position_ids.shape=torch.Size([1, 69]), past_key_values=DynamicCache(layers=[DynamicSlidingWindowLayer, DynamicLayer, DynamicSlidingWindowLayer, DynamicLayer, DynamicSlidingWindowLayer, DynamicLayer, DynamicSlidingWindowLayer, DynamicLayer, DynamicSlidingWindowLayer, DynamicLayer, DynamicSlidingWindowLayer, DynamicLayer, DynamicSlidingWindowLayer, DynamicLayer, DynamicSlidingWindowLayer, DynamicLayer, DynamicSlidingWindowLayer, DynamicLayer, DynamicSlidingWindowLayer, DynamicLayer, DynamicSlidingWindowLayer, DynamicLayer, DynamicSlidingWindowLayer, DynamicLayer]), use_cache=True, cache_position.shape=torch.Size([69]), position_embeddings[0].shape=torch.Size([1, 69, 32]), position_embeddings[1].shape=torch.Size([1, 69, 32])
+🟦 MoE層の入力 hidden_states.shape=torch.Size([1, 69, 2880]), hidden_states.dtype=torch.bfloat16
+🟦 MoE層の出力 hidden_states.shape=torch.Size([1, 69, 2880]), hidden_states.dtype=torch.bfloat16
+🟩 GptOssDecoderLayerの順伝播開始 hidden_states.shape=torch.Size([1, 69, 2880]), hidden_states.dtype=torch.bfloat16, position_ids.shape=torch.Size([1, 69]), past_key_values=DynamicCache(layers=[DynamicSlidingWindowLayer, DynamicLayer, DynamicSlidingWindowLayer, DynamicLayer, DynamicSlidingWindowLayer, DynamicLayer, DynamicSlidingWindowLayer, DynamicLayer, DynamicSlidingWindowLayer, DynamicLayer, DynamicSlidingWindowLayer, DynamicLayer, DynamicSlidingWindowLayer, DynamicLayer, DynamicSlidingWindowLayer, DynamicLayer, DynamicSlidingWindowLayer, DynamicLayer, DynamicSlidingWindowLayer, DynamicLayer, DynamicSlidingWindowLayer, DynamicLayer, DynamicSlidingWindowLayer, DynamicLayer]), use_cache=True, cache_position.shape=torch.Size([69]), position_embeddings[0].shape=torch.Size([1, 69, 32]), position_embeddings[1].shape=torch.Size([1, 69, 32]), attention_mask.shape=torch.Size([1, 1, 69, 69])
 🟩 RMSNormの順伝播開始 hidden_states.shape=torch.Size([1, 69, 2880]), hidden_states.dtype=torch.bfloat16
 🟦 アップキャスト input_dtype=torch.bfloat16 hidden_states.dtype=torch.float32
 🟩 RMSNormの順伝播完了 res.shape=torch.Size([1, 69, 2880]), res.dtype=torch.bfloat16
-🟩 GptOssAttentionの順伝播開始 hidden_states.shape=torch.Size([1, 69, 2880]), position_embeddings[0].shape=torch.Size([1, 69, 32]), position_embeddings[1].shape=torch.Size([1, 69, 32]), past_key_values=DynamicCache(layers=[DynamicSlidingWindowLayer, DynamicLayer, DynamicSlidingWindowLayer, DynamicLayer, DynamicSlidingWindowLayer, DynamicLayer, DynamicSlidingWindowLayer, DynamicLayer, DynamicSlidingWindowLayer, DynamicLayer, DynamicSlidingWindowLayer, DynamicLayer, DynamicSlidingWindowLayer, DynamicLayer, DynamicSlidingWindowLayer, DynamicLayer, DynamicSlidingWindowLayer, DynamicLayer, DynamicSlidingWindowLayer, DynamicLayer, DynamicSlidingWindowLayer, DynamicLayer, DynamicSlidingWindowLayer, DynamicLayer]), cache_position.shape=torch.Size([69])
+🟩 GptOssAttentionの順伝播開始 hidden_states.shape=torch.Size([1, 69, 2880]), position_embeddings[0].shape=torch.Size([1, 69, 32]), position_embeddings[1].shape=torch.Size([1, 69, 32]), past_key_values=DynamicCache(layers=[DynamicSlidingWindowLayer, DynamicLayer, DynamicSlidingWindowLayer, DynamicLayer, DynamicSlidingWindowLayer, DynamicLayer, DynamicSlidingWindowLayer, DynamicLayer, DynamicSlidingWindowLayer, DynamicLayer, DynamicSlidingWindowLayer, DynamicLayer, DynamicSlidingWindowLayer, DynamicLayer, DynamicSlidingWindowLayer, DynamicLayer, DynamicSlidingWindowLayer, DynamicLayer, DynamicSlidingWindowLayer, DynamicLayer, DynamicSlidingWindowLayer, DynamicLayer, DynamicSlidingWindowLayer, DynamicLayer]), cache_position.shape=torch.Size([69]), attention_mask.shape=torch.Size([1, 1, 69, 69])
 🟦 input_shape=torch.Size([1, 69])
 🟦 hidden_shape=(1, 69, -1, 64)
 🟦 クエリを計算 query_states.shape=torch.Size([1, 64, 69, 64])
@@ -1168,7 +1210,7 @@
 🟦 RoPEを適用 query_states.shape=torch.Size([1, 64, 69, 64]), key_states.shape=torch.Size([1, 8, 69, 64])
 🟦 キーバリューキャッシュを更新 key_states.shape=torch.Size([1, 8, 69, 64]), value_states.shape=torch.Size([1, 8, 69, 64])
 🟦 使用するアテンション実装: eager_attention_forward
-🟩 eager_attention_forwardの開始 query.shape=torch.Size([1, 64, 69, 64]), key.shape=torch.Size([1, 8, 69, 64]), value.shape=torch.Size([1, 8, 69, 64]), scaling=0.125, dropout=0.0
+🟩 eager_attention_forwardの開始 query.shape=torch.Size([1, 64, 69, 64]), key.shape=torch.Size([1, 8, 69, 64]), value.shape=torch.Size([1, 8, 69, 64]), scaling=0.125, dropout=0.0 attention_mask.shape=torch.Size([1, 1, 69, 69])
 🟩 repeat_kvの開始 hidden_states.shape=torch.Size([1, 8, 69, 64]), hidden_states.dtype=torch.bfloat16, n_rep=8
 🟦 hidden_states.shape=torch.Size([1, 8, 8, 69, 64]), hidden_states.dtype=torch.bfloat16
 🟩 repeat_kvの完了 res.shape=torch.Size([1, 64, 69, 64]), res.dtype=torch.bfloat16
@@ -1178,6 +1220,7 @@
 🟩 repeat_kvの完了 res.shape=torch.Size([1, 64, 69, 64]), res.dtype=torch.bfloat16
 🟦 バリューを複製 value_states.shape=torch.Size([1, 64, 69, 64]), value_states.dtype=torch.bfloat16
 🟦 アテンションロジットを計算 attn_weights.shape=torch.Size([1, 64, 69, 69]), attn_weights.dtype=torch.bfloat16
+🟦 causal_mask.shape=torch.Size([1, 1, 69, 69]), causal_mask.dtype=torch.bfloat16
 🟦 因果マスク適用 attn_weights.shape=torch.Size([1, 64, 69, 69]), attn_weights.dtype=torch.bfloat16
 🟦 sinks.shape=torch.Size([1, 64, 69, 1]), sinks.dtype=torch.bfloat16
 🟦 シンクを追加 combined_logits.shape=torch.Size([1, 64, 69, 70]), combined_logits.dtype=torch.bfloat16
@@ -1193,11 +1236,13 @@
 🟩 RMSNormの順伝播開始 hidden_states.shape=torch.Size([1, 69, 2880]), hidden_states.dtype=torch.bfloat16
 🟦 アップキャスト input_dtype=torch.bfloat16 hidden_states.dtype=torch.float32
 🟩 RMSNormの順伝播完了 res.shape=torch.Size([1, 69, 2880]), res.dtype=torch.bfloat16
-🟩 GptOssDecoderLayerの順伝播開始 hidden_states.shape=torch.Size([1, 69, 2880]), hidden_states.dtype=torch.bfloat16, position_ids.shape=torch.Size([1, 69]), past_key_values=DynamicCache(layers=[DynamicSlidingWindowLayer, DynamicLayer, DynamicSlidingWindowLayer, DynamicLayer, DynamicSlidingWindowLayer, DynamicLayer, DynamicSlidingWindowLayer, DynamicLayer, DynamicSlidingWindowLayer, DynamicLayer, DynamicSlidingWindowLayer, DynamicLayer, DynamicSlidingWindowLayer, DynamicLayer, DynamicSlidingWindowLayer, DynamicLayer, DynamicSlidingWindowLayer, DynamicLayer, DynamicSlidingWindowLayer, DynamicLayer, DynamicSlidingWindowLayer, DynamicLayer, DynamicSlidingWindowLayer, DynamicLayer]), use_cache=True, cache_position.shape=torch.Size([69]), position_embeddings[0].shape=torch.Size([1, 69, 32]), position_embeddings[1].shape=torch.Size([1, 69, 32])
+🟦 MoE層の入力 hidden_states.shape=torch.Size([1, 69, 2880]), hidden_states.dtype=torch.bfloat16
+🟦 MoE層の出力 hidden_states.shape=torch.Size([1, 69, 2880]), hidden_states.dtype=torch.bfloat16
+🟩 GptOssDecoderLayerの順伝播開始 hidden_states.shape=torch.Size([1, 69, 2880]), hidden_states.dtype=torch.bfloat16, position_ids.shape=torch.Size([1, 69]), past_key_values=DynamicCache(layers=[DynamicSlidingWindowLayer, DynamicLayer, DynamicSlidingWindowLayer, DynamicLayer, DynamicSlidingWindowLayer, DynamicLayer, DynamicSlidingWindowLayer, DynamicLayer, DynamicSlidingWindowLayer, DynamicLayer, DynamicSlidingWindowLayer, DynamicLayer, DynamicSlidingWindowLayer, DynamicLayer, DynamicSlidingWindowLayer, DynamicLayer, DynamicSlidingWindowLayer, DynamicLayer, DynamicSlidingWindowLayer, DynamicLayer, DynamicSlidingWindowLayer, DynamicLayer, DynamicSlidingWindowLayer, DynamicLayer]), use_cache=True, cache_position.shape=torch.Size([69]), position_embeddings[0].shape=torch.Size([1, 69, 32]), position_embeddings[1].shape=torch.Size([1, 69, 32]), attention_mask.shape=torch.Size([1, 1, 69, 69])
 🟩 RMSNormの順伝播開始 hidden_states.shape=torch.Size([1, 69, 2880]), hidden_states.dtype=torch.bfloat16
 🟦 アップキャスト input_dtype=torch.bfloat16 hidden_states.dtype=torch.float32
 🟩 RMSNormの順伝播完了 res.shape=torch.Size([1, 69, 2880]), res.dtype=torch.bfloat16
-🟩 GptOssAttentionの順伝播開始 hidden_states.shape=torch.Size([1, 69, 2880]), position_embeddings[0].shape=torch.Size([1, 69, 32]), position_embeddings[1].shape=torch.Size([1, 69, 32]), past_key_values=DynamicCache(layers=[DynamicSlidingWindowLayer, DynamicLayer, DynamicSlidingWindowLayer, DynamicLayer, DynamicSlidingWindowLayer, DynamicLayer, DynamicSlidingWindowLayer, DynamicLayer, DynamicSlidingWindowLayer, DynamicLayer, DynamicSlidingWindowLayer, DynamicLayer, DynamicSlidingWindowLayer, DynamicLayer, DynamicSlidingWindowLayer, DynamicLayer, DynamicSlidingWindowLayer, DynamicLayer, DynamicSlidingWindowLayer, DynamicLayer, DynamicSlidingWindowLayer, DynamicLayer, DynamicSlidingWindowLayer, DynamicLayer]), cache_position.shape=torch.Size([69])
+🟩 GptOssAttentionの順伝播開始 hidden_states.shape=torch.Size([1, 69, 2880]), position_embeddings[0].shape=torch.Size([1, 69, 32]), position_embeddings[1].shape=torch.Size([1, 69, 32]), past_key_values=DynamicCache(layers=[DynamicSlidingWindowLayer, DynamicLayer, DynamicSlidingWindowLayer, DynamicLayer, DynamicSlidingWindowLayer, DynamicLayer, DynamicSlidingWindowLayer, DynamicLayer, DynamicSlidingWindowLayer, DynamicLayer, DynamicSlidingWindowLayer, DynamicLayer, DynamicSlidingWindowLayer, DynamicLayer, DynamicSlidingWindowLayer, DynamicLayer, DynamicSlidingWindowLayer, DynamicLayer, DynamicSlidingWindowLayer, DynamicLayer, DynamicSlidingWindowLayer, DynamicLayer, DynamicSlidingWindowLayer, DynamicLayer]), cache_position.shape=torch.Size([69]), attention_mask.shape=torch.Size([1, 1, 69, 69])
 🟦 input_shape=torch.Size([1, 69])
 🟦 hidden_shape=(1, 69, -1, 64)
 🟦 クエリを計算 query_states.shape=torch.Size([1, 64, 69, 64])
@@ -1207,7 +1252,7 @@
 🟦 RoPEを適用 query_states.shape=torch.Size([1, 64, 69, 64]), key_states.shape=torch.Size([1, 8, 69, 64])
 🟦 キーバリューキャッシュを更新 key_states.shape=torch.Size([1, 8, 69, 64]), value_states.shape=torch.Size([1, 8, 69, 64])
 🟦 使用するアテンション実装: eager_attention_forward
-🟩 eager_attention_forwardの開始 query.shape=torch.Size([1, 64, 69, 64]), key.shape=torch.Size([1, 8, 69, 64]), value.shape=torch.Size([1, 8, 69, 64]), scaling=0.125, dropout=0.0
+🟩 eager_attention_forwardの開始 query.shape=torch.Size([1, 64, 69, 64]), key.shape=torch.Size([1, 8, 69, 64]), value.shape=torch.Size([1, 8, 69, 64]), scaling=0.125, dropout=0.0 attention_mask.shape=torch.Size([1, 1, 69, 69])
 🟩 repeat_kvの開始 hidden_states.shape=torch.Size([1, 8, 69, 64]), hidden_states.dtype=torch.bfloat16, n_rep=8
 🟦 hidden_states.shape=torch.Size([1, 8, 8, 69, 64]), hidden_states.dtype=torch.bfloat16
 🟩 repeat_kvの完了 res.shape=torch.Size([1, 64, 69, 64]), res.dtype=torch.bfloat16
@@ -1217,6 +1262,7 @@
 🟩 repeat_kvの完了 res.shape=torch.Size([1, 64, 69, 64]), res.dtype=torch.bfloat16
 🟦 バリューを複製 value_states.shape=torch.Size([1, 64, 69, 64]), value_states.dtype=torch.bfloat16
 🟦 アテンションロジットを計算 attn_weights.shape=torch.Size([1, 64, 69, 69]), attn_weights.dtype=torch.bfloat16
+🟦 causal_mask.shape=torch.Size([1, 1, 69, 69]), causal_mask.dtype=torch.bfloat16
 🟦 因果マスク適用 attn_weights.shape=torch.Size([1, 64, 69, 69]), attn_weights.dtype=torch.bfloat16
 🟦 sinks.shape=torch.Size([1, 64, 69, 1]), sinks.dtype=torch.bfloat16
 🟦 シンクを追加 combined_logits.shape=torch.Size([1, 64, 69, 70]), combined_logits.dtype=torch.bfloat16
@@ -1232,11 +1278,13 @@
 🟩 RMSNormの順伝播開始 hidden_states.shape=torch.Size([1, 69, 2880]), hidden_states.dtype=torch.bfloat16
 🟦 アップキャスト input_dtype=torch.bfloat16 hidden_states.dtype=torch.float32
 🟩 RMSNormの順伝播完了 res.shape=torch.Size([1, 69, 2880]), res.dtype=torch.bfloat16
-🟩 GptOssDecoderLayerの順伝播開始 hidden_states.shape=torch.Size([1, 69, 2880]), hidden_states.dtype=torch.bfloat16, position_ids.shape=torch.Size([1, 69]), past_key_values=DynamicCache(layers=[DynamicSlidingWindowLayer, DynamicLayer, DynamicSlidingWindowLayer, DynamicLayer, DynamicSlidingWindowLayer, DynamicLayer, DynamicSlidingWindowLayer, DynamicLayer, DynamicSlidingWindowLayer, DynamicLayer, DynamicSlidingWindowLayer, DynamicLayer, DynamicSlidingWindowLayer, DynamicLayer, DynamicSlidingWindowLayer, DynamicLayer, DynamicSlidingWindowLayer, DynamicLayer, DynamicSlidingWindowLayer, DynamicLayer, DynamicSlidingWindowLayer, DynamicLayer, DynamicSlidingWindowLayer, DynamicLayer]), use_cache=True, cache_position.shape=torch.Size([69]), position_embeddings[0].shape=torch.Size([1, 69, 32]), position_embeddings[1].shape=torch.Size([1, 69, 32])
+🟦 MoE層の入力 hidden_states.shape=torch.Size([1, 69, 2880]), hidden_states.dtype=torch.bfloat16
+🟦 MoE層の出力 hidden_states.shape=torch.Size([1, 69, 2880]), hidden_states.dtype=torch.bfloat16
+🟩 GptOssDecoderLayerの順伝播開始 hidden_states.shape=torch.Size([1, 69, 2880]), hidden_states.dtype=torch.bfloat16, position_ids.shape=torch.Size([1, 69]), past_key_values=DynamicCache(layers=[DynamicSlidingWindowLayer, DynamicLayer, DynamicSlidingWindowLayer, DynamicLayer, DynamicSlidingWindowLayer, DynamicLayer, DynamicSlidingWindowLayer, DynamicLayer, DynamicSlidingWindowLayer, DynamicLayer, DynamicSlidingWindowLayer, DynamicLayer, DynamicSlidingWindowLayer, DynamicLayer, DynamicSlidingWindowLayer, DynamicLayer, DynamicSlidingWindowLayer, DynamicLayer, DynamicSlidingWindowLayer, DynamicLayer, DynamicSlidingWindowLayer, DynamicLayer, DynamicSlidingWindowLayer, DynamicLayer]), use_cache=True, cache_position.shape=torch.Size([69]), position_embeddings[0].shape=torch.Size([1, 69, 32]), position_embeddings[1].shape=torch.Size([1, 69, 32]), attention_mask.shape=torch.Size([1, 1, 69, 69])
 🟩 RMSNormの順伝播開始 hidden_states.shape=torch.Size([1, 69, 2880]), hidden_states.dtype=torch.bfloat16
 🟦 アップキャスト input_dtype=torch.bfloat16 hidden_states.dtype=torch.float32
 🟩 RMSNormの順伝播完了 res.shape=torch.Size([1, 69, 2880]), res.dtype=torch.bfloat16
-🟩 GptOssAttentionの順伝播開始 hidden_states.shape=torch.Size([1, 69, 2880]), position_embeddings[0].shape=torch.Size([1, 69, 32]), position_embeddings[1].shape=torch.Size([1, 69, 32]), past_key_values=DynamicCache(layers=[DynamicSlidingWindowLayer, DynamicLayer, DynamicSlidingWindowLayer, DynamicLayer, DynamicSlidingWindowLayer, DynamicLayer, DynamicSlidingWindowLayer, DynamicLayer, DynamicSlidingWindowLayer, DynamicLayer, DynamicSlidingWindowLayer, DynamicLayer, DynamicSlidingWindowLayer, DynamicLayer, DynamicSlidingWindowLayer, DynamicLayer, DynamicSlidingWindowLayer, DynamicLayer, DynamicSlidingWindowLayer, DynamicLayer, DynamicSlidingWindowLayer, DynamicLayer, DynamicSlidingWindowLayer, DynamicLayer]), cache_position.shape=torch.Size([69])
+🟩 GptOssAttentionの順伝播開始 hidden_states.shape=torch.Size([1, 69, 2880]), position_embeddings[0].shape=torch.Size([1, 69, 32]), position_embeddings[1].shape=torch.Size([1, 69, 32]), past_key_values=DynamicCache(layers=[DynamicSlidingWindowLayer, DynamicLayer, DynamicSlidingWindowLayer, DynamicLayer, DynamicSlidingWindowLayer, DynamicLayer, DynamicSlidingWindowLayer, DynamicLayer, DynamicSlidingWindowLayer, DynamicLayer, DynamicSlidingWindowLayer, DynamicLayer, DynamicSlidingWindowLayer, DynamicLayer, DynamicSlidingWindowLayer, DynamicLayer, DynamicSlidingWindowLayer, DynamicLayer, DynamicSlidingWindowLayer, DynamicLayer, DynamicSlidingWindowLayer, DynamicLayer, DynamicSlidingWindowLayer, DynamicLayer]), cache_position.shape=torch.Size([69]), attention_mask.shape=torch.Size([1, 1, 69, 69])
 🟦 input_shape=torch.Size([1, 69])
 🟦 hidden_shape=(1, 69, -1, 64)
 🟦 クエリを計算 query_states.shape=torch.Size([1, 64, 69, 64])
@@ -1246,7 +1294,7 @@
 🟦 RoPEを適用 query_states.shape=torch.Size([1, 64, 69, 64]), key_states.shape=torch.Size([1, 8, 69, 64])
 🟦 キーバリューキャッシュを更新 key_states.shape=torch.Size([1, 8, 69, 64]), value_states.shape=torch.Size([1, 8, 69, 64])
 🟦 使用するアテンション実装: eager_attention_forward
-🟩 eager_attention_forwardの開始 query.shape=torch.Size([1, 64, 69, 64]), key.shape=torch.Size([1, 8, 69, 64]), value.shape=torch.Size([1, 8, 69, 64]), scaling=0.125, dropout=0.0
+🟩 eager_attention_forwardの開始 query.shape=torch.Size([1, 64, 69, 64]), key.shape=torch.Size([1, 8, 69, 64]), value.shape=torch.Size([1, 8, 69, 64]), scaling=0.125, dropout=0.0 attention_mask.shape=torch.Size([1, 1, 69, 69])
 🟩 repeat_kvの開始 hidden_states.shape=torch.Size([1, 8, 69, 64]), hidden_states.dtype=torch.bfloat16, n_rep=8
 🟦 hidden_states.shape=torch.Size([1, 8, 8, 69, 64]), hidden_states.dtype=torch.bfloat16
 🟩 repeat_kvの完了 res.shape=torch.Size([1, 64, 69, 64]), res.dtype=torch.bfloat16
@@ -1256,6 +1304,7 @@
 🟩 repeat_kvの完了 res.shape=torch.Size([1, 64, 69, 64]), res.dtype=torch.bfloat16
 🟦 バリューを複製 value_states.shape=torch.Size([1, 64, 69, 64]), value_states.dtype=torch.bfloat16
 🟦 アテンションロジットを計算 attn_weights.shape=torch.Size([1, 64, 69, 69]), attn_weights.dtype=torch.bfloat16
+🟦 causal_mask.shape=torch.Size([1, 1, 69, 69]), causal_mask.dtype=torch.bfloat16
 🟦 因果マスク適用 attn_weights.shape=torch.Size([1, 64, 69, 69]), attn_weights.dtype=torch.bfloat16
 🟦 sinks.shape=torch.Size([1, 64, 69, 1]), sinks.dtype=torch.bfloat16
 🟦 シンクを追加 combined_logits.shape=torch.Size([1, 64, 69, 70]), combined_logits.dtype=torch.bfloat16
@@ -1271,11 +1320,13 @@
 🟩 RMSNormの順伝播開始 hidden_states.shape=torch.Size([1, 69, 2880]), hidden_states.dtype=torch.bfloat16
 🟦 アップキャスト input_dtype=torch.bfloat16 hidden_states.dtype=torch.float32
 🟩 RMSNormの順伝播完了 res.shape=torch.Size([1, 69, 2880]), res.dtype=torch.bfloat16
-🟩 GptOssDecoderLayerの順伝播開始 hidden_states.shape=torch.Size([1, 69, 2880]), hidden_states.dtype=torch.bfloat16, position_ids.shape=torch.Size([1, 69]), past_key_values=DynamicCache(layers=[DynamicSlidingWindowLayer, DynamicLayer, DynamicSlidingWindowLayer, DynamicLayer, DynamicSlidingWindowLayer, DynamicLayer, DynamicSlidingWindowLayer, DynamicLayer, DynamicSlidingWindowLayer, DynamicLayer, DynamicSlidingWindowLayer, DynamicLayer, DynamicSlidingWindowLayer, DynamicLayer, DynamicSlidingWindowLayer, DynamicLayer, DynamicSlidingWindowLayer, DynamicLayer, DynamicSlidingWindowLayer, DynamicLayer, DynamicSlidingWindowLayer, DynamicLayer, DynamicSlidingWindowLayer, DynamicLayer]), use_cache=True, cache_position.shape=torch.Size([69]), position_embeddings[0].shape=torch.Size([1, 69, 32]), position_embeddings[1].shape=torch.Size([1, 69, 32])
+🟦 MoE層の入力 hidden_states.shape=torch.Size([1, 69, 2880]), hidden_states.dtype=torch.bfloat16
+🟦 MoE層の出力 hidden_states.shape=torch.Size([1, 69, 2880]), hidden_states.dtype=torch.bfloat16
+🟩 GptOssDecoderLayerの順伝播開始 hidden_states.shape=torch.Size([1, 69, 2880]), hidden_states.dtype=torch.bfloat16, position_ids.shape=torch.Size([1, 69]), past_key_values=DynamicCache(layers=[DynamicSlidingWindowLayer, DynamicLayer, DynamicSlidingWindowLayer, DynamicLayer, DynamicSlidingWindowLayer, DynamicLayer, DynamicSlidingWindowLayer, DynamicLayer, DynamicSlidingWindowLayer, DynamicLayer, DynamicSlidingWindowLayer, DynamicLayer, DynamicSlidingWindowLayer, DynamicLayer, DynamicSlidingWindowLayer, DynamicLayer, DynamicSlidingWindowLayer, DynamicLayer, DynamicSlidingWindowLayer, DynamicLayer, DynamicSlidingWindowLayer, DynamicLayer, DynamicSlidingWindowLayer, DynamicLayer]), use_cache=True, cache_position.shape=torch.Size([69]), position_embeddings[0].shape=torch.Size([1, 69, 32]), position_embeddings[1].shape=torch.Size([1, 69, 32]), attention_mask.shape=torch.Size([1, 1, 69, 69])
 🟩 RMSNormの順伝播開始 hidden_states.shape=torch.Size([1, 69, 2880]), hidden_states.dtype=torch.bfloat16
 🟦 アップキャスト input_dtype=torch.bfloat16 hidden_states.dtype=torch.float32
 🟩 RMSNormの順伝播完了 res.shape=torch.Size([1, 69, 2880]), res.dtype=torch.bfloat16
-🟩 GptOssAttentionの順伝播開始 hidden_states.shape=torch.Size([1, 69, 2880]), position_embeddings[0].shape=torch.Size([1, 69, 32]), position_embeddings[1].shape=torch.Size([1, 69, 32]), past_key_values=DynamicCache(layers=[DynamicSlidingWindowLayer, DynamicLayer, DynamicSlidingWindowLayer, DynamicLayer, DynamicSlidingWindowLayer, DynamicLayer, DynamicSlidingWindowLayer, DynamicLayer, DynamicSlidingWindowLayer, DynamicLayer, DynamicSlidingWindowLayer, DynamicLayer, DynamicSlidingWindowLayer, DynamicLayer, DynamicSlidingWindowLayer, DynamicLayer, DynamicSlidingWindowLayer, DynamicLayer, DynamicSlidingWindowLayer, DynamicLayer, DynamicSlidingWindowLayer, DynamicLayer, DynamicSlidingWindowLayer, DynamicLayer]), cache_position.shape=torch.Size([69])
+🟩 GptOssAttentionの順伝播開始 hidden_states.shape=torch.Size([1, 69, 2880]), position_embeddings[0].shape=torch.Size([1, 69, 32]), position_embeddings[1].shape=torch.Size([1, 69, 32]), past_key_values=DynamicCache(layers=[DynamicSlidingWindowLayer, DynamicLayer, DynamicSlidingWindowLayer, DynamicLayer, DynamicSlidingWindowLayer, DynamicLayer, DynamicSlidingWindowLayer, DynamicLayer, DynamicSlidingWindowLayer, DynamicLayer, DynamicSlidingWindowLayer, DynamicLayer, DynamicSlidingWindowLayer, DynamicLayer, DynamicSlidingWindowLayer, DynamicLayer, DynamicSlidingWindowLayer, DynamicLayer, DynamicSlidingWindowLayer, DynamicLayer, DynamicSlidingWindowLayer, DynamicLayer, DynamicSlidingWindowLayer, DynamicLayer]), cache_position.shape=torch.Size([69]), attention_mask.shape=torch.Size([1, 1, 69, 69])
 🟦 input_shape=torch.Size([1, 69])
 🟦 hidden_shape=(1, 69, -1, 64)
 🟦 クエリを計算 query_states.shape=torch.Size([1, 64, 69, 64])
@@ -1285,7 +1336,7 @@
 🟦 RoPEを適用 query_states.shape=torch.Size([1, 64, 69, 64]), key_states.shape=torch.Size([1, 8, 69, 64])
 🟦 キーバリューキャッシュを更新 key_states.shape=torch.Size([1, 8, 69, 64]), value_states.shape=torch.Size([1, 8, 69, 64])
 🟦 使用するアテンション実装: eager_attention_forward
-🟩 eager_attention_forwardの開始 query.shape=torch.Size([1, 64, 69, 64]), key.shape=torch.Size([1, 8, 69, 64]), value.shape=torch.Size([1, 8, 69, 64]), scaling=0.125, dropout=0.0
+🟩 eager_attention_forwardの開始 query.shape=torch.Size([1, 64, 69, 64]), key.shape=torch.Size([1, 8, 69, 64]), value.shape=torch.Size([1, 8, 69, 64]), scaling=0.125, dropout=0.0 attention_mask.shape=torch.Size([1, 1, 69, 69])
 🟩 repeat_kvの開始 hidden_states.shape=torch.Size([1, 8, 69, 64]), hidden_states.dtype=torch.bfloat16, n_rep=8
 🟦 hidden_states.shape=torch.Size([1, 8, 8, 69, 64]), hidden_states.dtype=torch.bfloat16
 🟩 repeat_kvの完了 res.shape=torch.Size([1, 64, 69, 64]), res.dtype=torch.bfloat16
@@ -1295,6 +1346,7 @@
 🟩 repeat_kvの完了 res.shape=torch.Size([1, 64, 69, 64]), res.dtype=torch.bfloat16
 🟦 バリューを複製 value_states.shape=torch.Size([1, 64, 69, 64]), value_states.dtype=torch.bfloat16
 🟦 アテンションロジットを計算 attn_weights.shape=torch.Size([1, 64, 69, 69]), attn_weights.dtype=torch.bfloat16
+🟦 causal_mask.shape=torch.Size([1, 1, 69, 69]), causal_mask.dtype=torch.bfloat16
 🟦 因果マスク適用 attn_weights.shape=torch.Size([1, 64, 69, 69]), attn_weights.dtype=torch.bfloat16
 🟦 sinks.shape=torch.Size([1, 64, 69, 1]), sinks.dtype=torch.bfloat16
 🟦 シンクを追加 combined_logits.shape=torch.Size([1, 64, 69, 70]), combined_logits.dtype=torch.bfloat16
@@ -1310,11 +1362,13 @@
 🟩 RMSNormの順伝播開始 hidden_states.shape=torch.Size([1, 69, 2880]), hidden_states.dtype=torch.bfloat16
 🟦 アップキャスト input_dtype=torch.bfloat16 hidden_states.dtype=torch.float32
 🟩 RMSNormの順伝播完了 res.shape=torch.Size([1, 69, 2880]), res.dtype=torch.bfloat16
-🟩 GptOssDecoderLayerの順伝播開始 hidden_states.shape=torch.Size([1, 69, 2880]), hidden_states.dtype=torch.bfloat16, position_ids.shape=torch.Size([1, 69]), past_key_values=DynamicCache(layers=[DynamicSlidingWindowLayer, DynamicLayer, DynamicSlidingWindowLayer, DynamicLayer, DynamicSlidingWindowLayer, DynamicLayer, DynamicSlidingWindowLayer, DynamicLayer, DynamicSlidingWindowLayer, DynamicLayer, DynamicSlidingWindowLayer, DynamicLayer, DynamicSlidingWindowLayer, DynamicLayer, DynamicSlidingWindowLayer, DynamicLayer, DynamicSlidingWindowLayer, DynamicLayer, DynamicSlidingWindowLayer, DynamicLayer, DynamicSlidingWindowLayer, DynamicLayer, DynamicSlidingWindowLayer, DynamicLayer]), use_cache=True, cache_position.shape=torch.Size([69]), position_embeddings[0].shape=torch.Size([1, 69, 32]), position_embeddings[1].shape=torch.Size([1, 69, 32])
+🟦 MoE層の入力 hidden_states.shape=torch.Size([1, 69, 2880]), hidden_states.dtype=torch.bfloat16
+🟦 MoE層の出力 hidden_states.shape=torch.Size([1, 69, 2880]), hidden_states.dtype=torch.bfloat16
+🟩 GptOssDecoderLayerの順伝播開始 hidden_states.shape=torch.Size([1, 69, 2880]), hidden_states.dtype=torch.bfloat16, position_ids.shape=torch.Size([1, 69]), past_key_values=DynamicCache(layers=[DynamicSlidingWindowLayer, DynamicLayer, DynamicSlidingWindowLayer, DynamicLayer, DynamicSlidingWindowLayer, DynamicLayer, DynamicSlidingWindowLayer, DynamicLayer, DynamicSlidingWindowLayer, DynamicLayer, DynamicSlidingWindowLayer, DynamicLayer, DynamicSlidingWindowLayer, DynamicLayer, DynamicSlidingWindowLayer, DynamicLayer, DynamicSlidingWindowLayer, DynamicLayer, DynamicSlidingWindowLayer, DynamicLayer, DynamicSlidingWindowLayer, DynamicLayer, DynamicSlidingWindowLayer, DynamicLayer]), use_cache=True, cache_position.shape=torch.Size([69]), position_embeddings[0].shape=torch.Size([1, 69, 32]), position_embeddings[1].shape=torch.Size([1, 69, 32]), attention_mask.shape=torch.Size([1, 1, 69, 69])
 🟩 RMSNormの順伝播開始 hidden_states.shape=torch.Size([1, 69, 2880]), hidden_states.dtype=torch.bfloat16
 🟦 アップキャスト input_dtype=torch.bfloat16 hidden_states.dtype=torch.float32
 🟩 RMSNormの順伝播完了 res.shape=torch.Size([1, 69, 2880]), res.dtype=torch.bfloat16
-🟩 GptOssAttentionの順伝播開始 hidden_states.shape=torch.Size([1, 69, 2880]), position_embeddings[0].shape=torch.Size([1, 69, 32]), position_embeddings[1].shape=torch.Size([1, 69, 32]), past_key_values=DynamicCache(layers=[DynamicSlidingWindowLayer, DynamicLayer, DynamicSlidingWindowLayer, DynamicLayer, DynamicSlidingWindowLayer, DynamicLayer, DynamicSlidingWindowLayer, DynamicLayer, DynamicSlidingWindowLayer, DynamicLayer, DynamicSlidingWindowLayer, DynamicLayer, DynamicSlidingWindowLayer, DynamicLayer, DynamicSlidingWindowLayer, DynamicLayer, DynamicSlidingWindowLayer, DynamicLayer, DynamicSlidingWindowLayer, DynamicLayer, DynamicSlidingWindowLayer, DynamicLayer, DynamicSlidingWindowLayer, DynamicLayer]), cache_position.shape=torch.Size([69])
+🟩 GptOssAttentionの順伝播開始 hidden_states.shape=torch.Size([1, 69, 2880]), position_embeddings[0].shape=torch.Size([1, 69, 32]), position_embeddings[1].shape=torch.Size([1, 69, 32]), past_key_values=DynamicCache(layers=[DynamicSlidingWindowLayer, DynamicLayer, DynamicSlidingWindowLayer, DynamicLayer, DynamicSlidingWindowLayer, DynamicLayer, DynamicSlidingWindowLayer, DynamicLayer, DynamicSlidingWindowLayer, DynamicLayer, DynamicSlidingWindowLayer, DynamicLayer, DynamicSlidingWindowLayer, DynamicLayer, DynamicSlidingWindowLayer, DynamicLayer, DynamicSlidingWindowLayer, DynamicLayer, DynamicSlidingWindowLayer, DynamicLayer, DynamicSlidingWindowLayer, DynamicLayer, DynamicSlidingWindowLayer, DynamicLayer]), cache_position.shape=torch.Size([69]), attention_mask.shape=torch.Size([1, 1, 69, 69])
 🟦 input_shape=torch.Size([1, 69])
 🟦 hidden_shape=(1, 69, -1, 64)
 🟦 クエリを計算 query_states.shape=torch.Size([1, 64, 69, 64])
@@ -1324,7 +1378,7 @@
 🟦 RoPEを適用 query_states.shape=torch.Size([1, 64, 69, 64]), key_states.shape=torch.Size([1, 8, 69, 64])
 🟦 キーバリューキャッシュを更新 key_states.shape=torch.Size([1, 8, 69, 64]), value_states.shape=torch.Size([1, 8, 69, 64])
 🟦 使用するアテンション実装: eager_attention_forward
-🟩 eager_attention_forwardの開始 query.shape=torch.Size([1, 64, 69, 64]), key.shape=torch.Size([1, 8, 69, 64]), value.shape=torch.Size([1, 8, 69, 64]), scaling=0.125, dropout=0.0
+🟩 eager_attention_forwardの開始 query.shape=torch.Size([1, 64, 69, 64]), key.shape=torch.Size([1, 8, 69, 64]), value.shape=torch.Size([1, 8, 69, 64]), scaling=0.125, dropout=0.0 attention_mask.shape=torch.Size([1, 1, 69, 69])
 🟩 repeat_kvの開始 hidden_states.shape=torch.Size([1, 8, 69, 64]), hidden_states.dtype=torch.bfloat16, n_rep=8
 🟦 hidden_states.shape=torch.Size([1, 8, 8, 69, 64]), hidden_states.dtype=torch.bfloat16
 🟩 repeat_kvの完了 res.shape=torch.Size([1, 64, 69, 64]), res.dtype=torch.bfloat16
@@ -1334,6 +1388,7 @@
 🟩 repeat_kvの完了 res.shape=torch.Size([1, 64, 69, 64]), res.dtype=torch.bfloat16
 🟦 バリューを複製 value_states.shape=torch.Size([1, 64, 69, 64]), value_states.dtype=torch.bfloat16
 🟦 アテンションロジットを計算 attn_weights.shape=torch.Size([1, 64, 69, 69]), attn_weights.dtype=torch.bfloat16
+🟦 causal_mask.shape=torch.Size([1, 1, 69, 69]), causal_mask.dtype=torch.bfloat16
 🟦 因果マスク適用 attn_weights.shape=torch.Size([1, 64, 69, 69]), attn_weights.dtype=torch.bfloat16
 🟦 sinks.shape=torch.Size([1, 64, 69, 1]), sinks.dtype=torch.bfloat16
 🟦 シンクを追加 combined_logits.shape=torch.Size([1, 64, 69, 70]), combined_logits.dtype=torch.bfloat16
@@ -1349,11 +1404,13 @@
 🟩 RMSNormの順伝播開始 hidden_states.shape=torch.Size([1, 69, 2880]), hidden_states.dtype=torch.bfloat16
 🟦 アップキャスト input_dtype=torch.bfloat16 hidden_states.dtype=torch.float32
 🟩 RMSNormの順伝播完了 res.shape=torch.Size([1, 69, 2880]), res.dtype=torch.bfloat16
-🟩 GptOssDecoderLayerの順伝播開始 hidden_states.shape=torch.Size([1, 69, 2880]), hidden_states.dtype=torch.bfloat16, position_ids.shape=torch.Size([1, 69]), past_key_values=DynamicCache(layers=[DynamicSlidingWindowLayer, DynamicLayer, DynamicSlidingWindowLayer, DynamicLayer, DynamicSlidingWindowLayer, DynamicLayer, DynamicSlidingWindowLayer, DynamicLayer, DynamicSlidingWindowLayer, DynamicLayer, DynamicSlidingWindowLayer, DynamicLayer, DynamicSlidingWindowLayer, DynamicLayer, DynamicSlidingWindowLayer, DynamicLayer, DynamicSlidingWindowLayer, DynamicLayer, DynamicSlidingWindowLayer, DynamicLayer, DynamicSlidingWindowLayer, DynamicLayer, DynamicSlidingWindowLayer, DynamicLayer]), use_cache=True, cache_position.shape=torch.Size([69]), position_embeddings[0].shape=torch.Size([1, 69, 32]), position_embeddings[1].shape=torch.Size([1, 69, 32])
+🟦 MoE層の入力 hidden_states.shape=torch.Size([1, 69, 2880]), hidden_states.dtype=torch.bfloat16
+🟦 MoE層の出力 hidden_states.shape=torch.Size([1, 69, 2880]), hidden_states.dtype=torch.bfloat16
+🟩 GptOssDecoderLayerの順伝播開始 hidden_states.shape=torch.Size([1, 69, 2880]), hidden_states.dtype=torch.bfloat16, position_ids.shape=torch.Size([1, 69]), past_key_values=DynamicCache(layers=[DynamicSlidingWindowLayer, DynamicLayer, DynamicSlidingWindowLayer, DynamicLayer, DynamicSlidingWindowLayer, DynamicLayer, DynamicSlidingWindowLayer, DynamicLayer, DynamicSlidingWindowLayer, DynamicLayer, DynamicSlidingWindowLayer, DynamicLayer, DynamicSlidingWindowLayer, DynamicLayer, DynamicSlidingWindowLayer, DynamicLayer, DynamicSlidingWindowLayer, DynamicLayer, DynamicSlidingWindowLayer, DynamicLayer, DynamicSlidingWindowLayer, DynamicLayer, DynamicSlidingWindowLayer, DynamicLayer]), use_cache=True, cache_position.shape=torch.Size([69]), position_embeddings[0].shape=torch.Size([1, 69, 32]), position_embeddings[1].shape=torch.Size([1, 69, 32]), attention_mask.shape=torch.Size([1, 1, 69, 69])
 🟩 RMSNormの順伝播開始 hidden_states.shape=torch.Size([1, 69, 2880]), hidden_states.dtype=torch.bfloat16
 🟦 アップキャスト input_dtype=torch.bfloat16 hidden_states.dtype=torch.float32
 🟩 RMSNormの順伝播完了 res.shape=torch.Size([1, 69, 2880]), res.dtype=torch.bfloat16
-🟩 GptOssAttentionの順伝播開始 hidden_states.shape=torch.Size([1, 69, 2880]), position_embeddings[0].shape=torch.Size([1, 69, 32]), position_embeddings[1].shape=torch.Size([1, 69, 32]), past_key_values=DynamicCache(layers=[DynamicSlidingWindowLayer, DynamicLayer, DynamicSlidingWindowLayer, DynamicLayer, DynamicSlidingWindowLayer, DynamicLayer, DynamicSlidingWindowLayer, DynamicLayer, DynamicSlidingWindowLayer, DynamicLayer, DynamicSlidingWindowLayer, DynamicLayer, DynamicSlidingWindowLayer, DynamicLayer, DynamicSlidingWindowLayer, DynamicLayer, DynamicSlidingWindowLayer, DynamicLayer, DynamicSlidingWindowLayer, DynamicLayer, DynamicSlidingWindowLayer, DynamicLayer, DynamicSlidingWindowLayer, DynamicLayer]), cache_position.shape=torch.Size([69])
+🟩 GptOssAttentionの順伝播開始 hidden_states.shape=torch.Size([1, 69, 2880]), position_embeddings[0].shape=torch.Size([1, 69, 32]), position_embeddings[1].shape=torch.Size([1, 69, 32]), past_key_values=DynamicCache(layers=[DynamicSlidingWindowLayer, DynamicLayer, DynamicSlidingWindowLayer, DynamicLayer, DynamicSlidingWindowLayer, DynamicLayer, DynamicSlidingWindowLayer, DynamicLayer, DynamicSlidingWindowLayer, DynamicLayer, DynamicSlidingWindowLayer, DynamicLayer, DynamicSlidingWindowLayer, DynamicLayer, DynamicSlidingWindowLayer, DynamicLayer, DynamicSlidingWindowLayer, DynamicLayer, DynamicSlidingWindowLayer, DynamicLayer, DynamicSlidingWindowLayer, DynamicLayer, DynamicSlidingWindowLayer, DynamicLayer]), cache_position.shape=torch.Size([69]), attention_mask.shape=torch.Size([1, 1, 69, 69])
 🟦 input_shape=torch.Size([1, 69])
 🟦 hidden_shape=(1, 69, -1, 64)
 🟦 クエリを計算 query_states.shape=torch.Size([1, 64, 69, 64])
@@ -1363,7 +1420,7 @@
 🟦 RoPEを適用 query_states.shape=torch.Size([1, 64, 69, 64]), key_states.shape=torch.Size([1, 8, 69, 64])
 🟦 キーバリューキャッシュを更新 key_states.shape=torch.Size([1, 8, 69, 64]), value_states.shape=torch.Size([1, 8, 69, 64])
 🟦 使用するアテンション実装: eager_attention_forward
-🟩 eager_attention_forwardの開始 query.shape=torch.Size([1, 64, 69, 64]), key.shape=torch.Size([1, 8, 69, 64]), value.shape=torch.Size([1, 8, 69, 64]), scaling=0.125, dropout=0.0
+🟩 eager_attention_forwardの開始 query.shape=torch.Size([1, 64, 69, 64]), key.shape=torch.Size([1, 8, 69, 64]), value.shape=torch.Size([1, 8, 69, 64]), scaling=0.125, dropout=0.0 attention_mask.shape=torch.Size([1, 1, 69, 69])
 🟩 repeat_kvの開始 hidden_states.shape=torch.Size([1, 8, 69, 64]), hidden_states.dtype=torch.bfloat16, n_rep=8
 🟦 hidden_states.shape=torch.Size([1, 8, 8, 69, 64]), hidden_states.dtype=torch.bfloat16
 🟩 repeat_kvの完了 res.shape=torch.Size([1, 64, 69, 64]), res.dtype=torch.bfloat16
@@ -1373,6 +1430,7 @@
 🟩 repeat_kvの完了 res.shape=torch.Size([1, 64, 69, 64]), res.dtype=torch.bfloat16
 🟦 バリューを複製 value_states.shape=torch.Size([1, 64, 69, 64]), value_states.dtype=torch.bfloat16
 🟦 アテンションロジットを計算 attn_weights.shape=torch.Size([1, 64, 69, 69]), attn_weights.dtype=torch.bfloat16
+🟦 causal_mask.shape=torch.Size([1, 1, 69, 69]), causal_mask.dtype=torch.bfloat16
 🟦 因果マスク適用 attn_weights.shape=torch.Size([1, 64, 69, 69]), attn_weights.dtype=torch.bfloat16
 🟦 sinks.shape=torch.Size([1, 64, 69, 1]), sinks.dtype=torch.bfloat16
 🟦 シンクを追加 combined_logits.shape=torch.Size([1, 64, 69, 70]), combined_logits.dtype=torch.bfloat16
@@ -1388,11 +1446,13 @@
 🟩 RMSNormの順伝播開始 hidden_states.shape=torch.Size([1, 69, 2880]), hidden_states.dtype=torch.bfloat16
 🟦 アップキャスト input_dtype=torch.bfloat16 hidden_states.dtype=torch.float32
 🟩 RMSNormの順伝播完了 res.shape=torch.Size([1, 69, 2880]), res.dtype=torch.bfloat16
-🟩 GptOssDecoderLayerの順伝播開始 hidden_states.shape=torch.Size([1, 69, 2880]), hidden_states.dtype=torch.bfloat16, position_ids.shape=torch.Size([1, 69]), past_key_values=DynamicCache(layers=[DynamicSlidingWindowLayer, DynamicLayer, DynamicSlidingWindowLayer, DynamicLayer, DynamicSlidingWindowLayer, DynamicLayer, DynamicSlidingWindowLayer, DynamicLayer, DynamicSlidingWindowLayer, DynamicLayer, DynamicSlidingWindowLayer, DynamicLayer, DynamicSlidingWindowLayer, DynamicLayer, DynamicSlidingWindowLayer, DynamicLayer, DynamicSlidingWindowLayer, DynamicLayer, DynamicSlidingWindowLayer, DynamicLayer, DynamicSlidingWindowLayer, DynamicLayer, DynamicSlidingWindowLayer, DynamicLayer]), use_cache=True, cache_position.shape=torch.Size([69]), position_embeddings[0].shape=torch.Size([1, 69, 32]), position_embeddings[1].shape=torch.Size([1, 69, 32])
+🟦 MoE層の入力 hidden_states.shape=torch.Size([1, 69, 2880]), hidden_states.dtype=torch.bfloat16
+🟦 MoE層の出力 hidden_states.shape=torch.Size([1, 69, 2880]), hidden_states.dtype=torch.bfloat16
+🟩 GptOssDecoderLayerの順伝播開始 hidden_states.shape=torch.Size([1, 69, 2880]), hidden_states.dtype=torch.bfloat16, position_ids.shape=torch.Size([1, 69]), past_key_values=DynamicCache(layers=[DynamicSlidingWindowLayer, DynamicLayer, DynamicSlidingWindowLayer, DynamicLayer, DynamicSlidingWindowLayer, DynamicLayer, DynamicSlidingWindowLayer, DynamicLayer, DynamicSlidingWindowLayer, DynamicLayer, DynamicSlidingWindowLayer, DynamicLayer, DynamicSlidingWindowLayer, DynamicLayer, DynamicSlidingWindowLayer, DynamicLayer, DynamicSlidingWindowLayer, DynamicLayer, DynamicSlidingWindowLayer, DynamicLayer, DynamicSlidingWindowLayer, DynamicLayer, DynamicSlidingWindowLayer, DynamicLayer]), use_cache=True, cache_position.shape=torch.Size([69]), position_embeddings[0].shape=torch.Size([1, 69, 32]), position_embeddings[1].shape=torch.Size([1, 69, 32]), attention_mask.shape=torch.Size([1, 1, 69, 69])
 🟩 RMSNormの順伝播開始 hidden_states.shape=torch.Size([1, 69, 2880]), hidden_states.dtype=torch.bfloat16
 🟦 アップキャスト input_dtype=torch.bfloat16 hidden_states.dtype=torch.float32
 🟩 RMSNormの順伝播完了 res.shape=torch.Size([1, 69, 2880]), res.dtype=torch.bfloat16
-🟩 GptOssAttentionの順伝播開始 hidden_states.shape=torch.Size([1, 69, 2880]), position_embeddings[0].shape=torch.Size([1, 69, 32]), position_embeddings[1].shape=torch.Size([1, 69, 32]), past_key_values=DynamicCache(layers=[DynamicSlidingWindowLayer, DynamicLayer, DynamicSlidingWindowLayer, DynamicLayer, DynamicSlidingWindowLayer, DynamicLayer, DynamicSlidingWindowLayer, DynamicLayer, DynamicSlidingWindowLayer, DynamicLayer, DynamicSlidingWindowLayer, DynamicLayer, DynamicSlidingWindowLayer, DynamicLayer, DynamicSlidingWindowLayer, DynamicLayer, DynamicSlidingWindowLayer, DynamicLayer, DynamicSlidingWindowLayer, DynamicLayer, DynamicSlidingWindowLayer, DynamicLayer, DynamicSlidingWindowLayer, DynamicLayer]), cache_position.shape=torch.Size([69])
+🟩 GptOssAttentionの順伝播開始 hidden_states.shape=torch.Size([1, 69, 2880]), position_embeddings[0].shape=torch.Size([1, 69, 32]), position_embeddings[1].shape=torch.Size([1, 69, 32]), past_key_values=DynamicCache(layers=[DynamicSlidingWindowLayer, DynamicLayer, DynamicSlidingWindowLayer, DynamicLayer, DynamicSlidingWindowLayer, DynamicLayer, DynamicSlidingWindowLayer, DynamicLayer, DynamicSlidingWindowLayer, DynamicLayer, DynamicSlidingWindowLayer, DynamicLayer, DynamicSlidingWindowLayer, DynamicLayer, DynamicSlidingWindowLayer, DynamicLayer, DynamicSlidingWindowLayer, DynamicLayer, DynamicSlidingWindowLayer, DynamicLayer, DynamicSlidingWindowLayer, DynamicLayer, DynamicSlidingWindowLayer, DynamicLayer]), cache_position.shape=torch.Size([69]), attention_mask.shape=torch.Size([1, 1, 69, 69])
 🟦 input_shape=torch.Size([1, 69])
 🟦 hidden_shape=(1, 69, -1, 64)
 🟦 クエリを計算 query_states.shape=torch.Size([1, 64, 69, 64])
@@ -1402,7 +1462,7 @@
 🟦 RoPEを適用 query_states.shape=torch.Size([1, 64, 69, 64]), key_states.shape=torch.Size([1, 8, 69, 64])
 🟦 キーバリューキャッシュを更新 key_states.shape=torch.Size([1, 8, 69, 64]), value_states.shape=torch.Size([1, 8, 69, 64])
 🟦 使用するアテンション実装: eager_attention_forward
-🟩 eager_attention_forwardの開始 query.shape=torch.Size([1, 64, 69, 64]), key.shape=torch.Size([1, 8, 69, 64]), value.shape=torch.Size([1, 8, 69, 64]), scaling=0.125, dropout=0.0
+🟩 eager_attention_forwardの開始 query.shape=torch.Size([1, 64, 69, 64]), key.shape=torch.Size([1, 8, 69, 64]), value.shape=torch.Size([1, 8, 69, 64]), scaling=0.125, dropout=0.0 attention_mask.shape=torch.Size([1, 1, 69, 69])
 🟩 repeat_kvの開始 hidden_states.shape=torch.Size([1, 8, 69, 64]), hidden_states.dtype=torch.bfloat16, n_rep=8
 🟦 hidden_states.shape=torch.Size([1, 8, 8, 69, 64]), hidden_states.dtype=torch.bfloat16
 🟩 repeat_kvの完了 res.shape=torch.Size([1, 64, 69, 64]), res.dtype=torch.bfloat16
@@ -1412,6 +1472,7 @@
 🟩 repeat_kvの完了 res.shape=torch.Size([1, 64, 69, 64]), res.dtype=torch.bfloat16
 🟦 バリューを複製 value_states.shape=torch.Size([1, 64, 69, 64]), value_states.dtype=torch.bfloat16
 🟦 アテンションロジットを計算 attn_weights.shape=torch.Size([1, 64, 69, 69]), attn_weights.dtype=torch.bfloat16
+🟦 causal_mask.shape=torch.Size([1, 1, 69, 69]), causal_mask.dtype=torch.bfloat16
 🟦 因果マスク適用 attn_weights.shape=torch.Size([1, 64, 69, 69]), attn_weights.dtype=torch.bfloat16
 🟦 sinks.shape=torch.Size([1, 64, 69, 1]), sinks.dtype=torch.bfloat16
 🟦 シンクを追加 combined_logits.shape=torch.Size([1, 64, 69, 70]), combined_logits.dtype=torch.bfloat16
@@ -1427,11 +1488,13 @@
 🟩 RMSNormの順伝播開始 hidden_states.shape=torch.Size([1, 69, 2880]), hidden_states.dtype=torch.bfloat16
 🟦 アップキャスト input_dtype=torch.bfloat16 hidden_states.dtype=torch.float32
 🟩 RMSNormの順伝播完了 res.shape=torch.Size([1, 69, 2880]), res.dtype=torch.bfloat16
-🟩 GptOssDecoderLayerの順伝播開始 hidden_states.shape=torch.Size([1, 69, 2880]), hidden_states.dtype=torch.bfloat16, position_ids.shape=torch.Size([1, 69]), past_key_values=DynamicCache(layers=[DynamicSlidingWindowLayer, DynamicLayer, DynamicSlidingWindowLayer, DynamicLayer, DynamicSlidingWindowLayer, DynamicLayer, DynamicSlidingWindowLayer, DynamicLayer, DynamicSlidingWindowLayer, DynamicLayer, DynamicSlidingWindowLayer, DynamicLayer, DynamicSlidingWindowLayer, DynamicLayer, DynamicSlidingWindowLayer, DynamicLayer, DynamicSlidingWindowLayer, DynamicLayer, DynamicSlidingWindowLayer, DynamicLayer, DynamicSlidingWindowLayer, DynamicLayer, DynamicSlidingWindowLayer, DynamicLayer]), use_cache=True, cache_position.shape=torch.Size([69]), position_embeddings[0].shape=torch.Size([1, 69, 32]), position_embeddings[1].shape=torch.Size([1, 69, 32])
+🟦 MoE層の入力 hidden_states.shape=torch.Size([1, 69, 2880]), hidden_states.dtype=torch.bfloat16
+🟦 MoE層の出力 hidden_states.shape=torch.Size([1, 69, 2880]), hidden_states.dtype=torch.bfloat16
+🟩 GptOssDecoderLayerの順伝播開始 hidden_states.shape=torch.Size([1, 69, 2880]), hidden_states.dtype=torch.bfloat16, position_ids.shape=torch.Size([1, 69]), past_key_values=DynamicCache(layers=[DynamicSlidingWindowLayer, DynamicLayer, DynamicSlidingWindowLayer, DynamicLayer, DynamicSlidingWindowLayer, DynamicLayer, DynamicSlidingWindowLayer, DynamicLayer, DynamicSlidingWindowLayer, DynamicLayer, DynamicSlidingWindowLayer, DynamicLayer, DynamicSlidingWindowLayer, DynamicLayer, DynamicSlidingWindowLayer, DynamicLayer, DynamicSlidingWindowLayer, DynamicLayer, DynamicSlidingWindowLayer, DynamicLayer, DynamicSlidingWindowLayer, DynamicLayer, DynamicSlidingWindowLayer, DynamicLayer]), use_cache=True, cache_position.shape=torch.Size([69]), position_embeddings[0].shape=torch.Size([1, 69, 32]), position_embeddings[1].shape=torch.Size([1, 69, 32]), attention_mask.shape=torch.Size([1, 1, 69, 69])
 🟩 RMSNormの順伝播開始 hidden_states.shape=torch.Size([1, 69, 2880]), hidden_states.dtype=torch.bfloat16
 🟦 アップキャスト input_dtype=torch.bfloat16 hidden_states.dtype=torch.float32
 🟩 RMSNormの順伝播完了 res.shape=torch.Size([1, 69, 2880]), res.dtype=torch.bfloat16
-🟩 GptOssAttentionの順伝播開始 hidden_states.shape=torch.Size([1, 69, 2880]), position_embeddings[0].shape=torch.Size([1, 69, 32]), position_embeddings[1].shape=torch.Size([1, 69, 32]), past_key_values=DynamicCache(layers=[DynamicSlidingWindowLayer, DynamicLayer, DynamicSlidingWindowLayer, DynamicLayer, DynamicSlidingWindowLayer, DynamicLayer, DynamicSlidingWindowLayer, DynamicLayer, DynamicSlidingWindowLayer, DynamicLayer, DynamicSlidingWindowLayer, DynamicLayer, DynamicSlidingWindowLayer, DynamicLayer, DynamicSlidingWindowLayer, DynamicLayer, DynamicSlidingWindowLayer, DynamicLayer, DynamicSlidingWindowLayer, DynamicLayer, DynamicSlidingWindowLayer, DynamicLayer, DynamicSlidingWindowLayer, DynamicLayer]), cache_position.shape=torch.Size([69])
+🟩 GptOssAttentionの順伝播開始 hidden_states.shape=torch.Size([1, 69, 2880]), position_embeddings[0].shape=torch.Size([1, 69, 32]), position_embeddings[1].shape=torch.Size([1, 69, 32]), past_key_values=DynamicCache(layers=[DynamicSlidingWindowLayer, DynamicLayer, DynamicSlidingWindowLayer, DynamicLayer, DynamicSlidingWindowLayer, DynamicLayer, DynamicSlidingWindowLayer, DynamicLayer, DynamicSlidingWindowLayer, DynamicLayer, DynamicSlidingWindowLayer, DynamicLayer, DynamicSlidingWindowLayer, DynamicLayer, DynamicSlidingWindowLayer, DynamicLayer, DynamicSlidingWindowLayer, DynamicLayer, DynamicSlidingWindowLayer, DynamicLayer, DynamicSlidingWindowLayer, DynamicLayer, DynamicSlidingWindowLayer, DynamicLayer]), cache_position.shape=torch.Size([69]), attention_mask.shape=torch.Size([1, 1, 69, 69])
 🟦 input_shape=torch.Size([1, 69])
 🟦 hidden_shape=(1, 69, -1, 64)
 🟦 クエリを計算 query_states.shape=torch.Size([1, 64, 69, 64])
@@ -1441,7 +1504,7 @@
 🟦 RoPEを適用 query_states.shape=torch.Size([1, 64, 69, 64]), key_states.shape=torch.Size([1, 8, 69, 64])
 🟦 キーバリューキャッシュを更新 key_states.shape=torch.Size([1, 8, 69, 64]), value_states.shape=torch.Size([1, 8, 69, 64])
 🟦 使用するアテンション実装: eager_attention_forward
-🟩 eager_attention_forwardの開始 query.shape=torch.Size([1, 64, 69, 64]), key.shape=torch.Size([1, 8, 69, 64]), value.shape=torch.Size([1, 8, 69, 64]), scaling=0.125, dropout=0.0
+🟩 eager_attention_forwardの開始 query.shape=torch.Size([1, 64, 69, 64]), key.shape=torch.Size([1, 8, 69, 64]), value.shape=torch.Size([1, 8, 69, 64]), scaling=0.125, dropout=0.0 attention_mask.shape=torch.Size([1, 1, 69, 69])
 🟩 repeat_kvの開始 hidden_states.shape=torch.Size([1, 8, 69, 64]), hidden_states.dtype=torch.bfloat16, n_rep=8
 🟦 hidden_states.shape=torch.Size([1, 8, 8, 69, 64]), hidden_states.dtype=torch.bfloat16
 🟩 repeat_kvの完了 res.shape=torch.Size([1, 64, 69, 64]), res.dtype=torch.bfloat16
@@ -1451,6 +1514,7 @@
 🟩 repeat_kvの完了 res.shape=torch.Size([1, 64, 69, 64]), res.dtype=torch.bfloat16
 🟦 バリューを複製 value_states.shape=torch.Size([1, 64, 69, 64]), value_states.dtype=torch.bfloat16
 🟦 アテンションロジットを計算 attn_weights.shape=torch.Size([1, 64, 69, 69]), attn_weights.dtype=torch.bfloat16
+🟦 causal_mask.shape=torch.Size([1, 1, 69, 69]), causal_mask.dtype=torch.bfloat16
 🟦 因果マスク適用 attn_weights.shape=torch.Size([1, 64, 69, 69]), attn_weights.dtype=torch.bfloat16
 🟦 sinks.shape=torch.Size([1, 64, 69, 1]), sinks.dtype=torch.bfloat16
 🟦 シンクを追加 combined_logits.shape=torch.Size([1, 64, 69, 70]), combined_logits.dtype=torch.bfloat16
@@ -1466,11 +1530,13 @@
 🟩 RMSNormの順伝播開始 hidden_states.shape=torch.Size([1, 69, 2880]), hidden_states.dtype=torch.bfloat16
 🟦 アップキャスト input_dtype=torch.bfloat16 hidden_states.dtype=torch.float32
 🟩 RMSNormの順伝播完了 res.shape=torch.Size([1, 69, 2880]), res.dtype=torch.bfloat16
-🟩 GptOssDecoderLayerの順伝播開始 hidden_states.shape=torch.Size([1, 69, 2880]), hidden_states.dtype=torch.bfloat16, position_ids.shape=torch.Size([1, 69]), past_key_values=DynamicCache(layers=[DynamicSlidingWindowLayer, DynamicLayer, DynamicSlidingWindowLayer, DynamicLayer, DynamicSlidingWindowLayer, DynamicLayer, DynamicSlidingWindowLayer, DynamicLayer, DynamicSlidingWindowLayer, DynamicLayer, DynamicSlidingWindowLayer, DynamicLayer, DynamicSlidingWindowLayer, DynamicLayer, DynamicSlidingWindowLayer, DynamicLayer, DynamicSlidingWindowLayer, DynamicLayer, DynamicSlidingWindowLayer, DynamicLayer, DynamicSlidingWindowLayer, DynamicLayer, DynamicSlidingWindowLayer, DynamicLayer]), use_cache=True, cache_position.shape=torch.Size([69]), position_embeddings[0].shape=torch.Size([1, 69, 32]), position_embeddings[1].shape=torch.Size([1, 69, 32])
+🟦 MoE層の入力 hidden_states.shape=torch.Size([1, 69, 2880]), hidden_states.dtype=torch.bfloat16
+🟦 MoE層の出力 hidden_states.shape=torch.Size([1, 69, 2880]), hidden_states.dtype=torch.bfloat16
+🟩 GptOssDecoderLayerの順伝播開始 hidden_states.shape=torch.Size([1, 69, 2880]), hidden_states.dtype=torch.bfloat16, position_ids.shape=torch.Size([1, 69]), past_key_values=DynamicCache(layers=[DynamicSlidingWindowLayer, DynamicLayer, DynamicSlidingWindowLayer, DynamicLayer, DynamicSlidingWindowLayer, DynamicLayer, DynamicSlidingWindowLayer, DynamicLayer, DynamicSlidingWindowLayer, DynamicLayer, DynamicSlidingWindowLayer, DynamicLayer, DynamicSlidingWindowLayer, DynamicLayer, DynamicSlidingWindowLayer, DynamicLayer, DynamicSlidingWindowLayer, DynamicLayer, DynamicSlidingWindowLayer, DynamicLayer, DynamicSlidingWindowLayer, DynamicLayer, DynamicSlidingWindowLayer, DynamicLayer]), use_cache=True, cache_position.shape=torch.Size([69]), position_embeddings[0].shape=torch.Size([1, 69, 32]), position_embeddings[1].shape=torch.Size([1, 69, 32]), attention_mask.shape=torch.Size([1, 1, 69, 69])
 🟩 RMSNormの順伝播開始 hidden_states.shape=torch.Size([1, 69, 2880]), hidden_states.dtype=torch.bfloat16
 🟦 アップキャスト input_dtype=torch.bfloat16 hidden_states.dtype=torch.float32
 🟩 RMSNormの順伝播完了 res.shape=torch.Size([1, 69, 2880]), res.dtype=torch.bfloat16
-🟩 GptOssAttentionの順伝播開始 hidden_states.shape=torch.Size([1, 69, 2880]), position_embeddings[0].shape=torch.Size([1, 69, 32]), position_embeddings[1].shape=torch.Size([1, 69, 32]), past_key_values=DynamicCache(layers=[DynamicSlidingWindowLayer, DynamicLayer, DynamicSlidingWindowLayer, DynamicLayer, DynamicSlidingWindowLayer, DynamicLayer, DynamicSlidingWindowLayer, DynamicLayer, DynamicSlidingWindowLayer, DynamicLayer, DynamicSlidingWindowLayer, DynamicLayer, DynamicSlidingWindowLayer, DynamicLayer, DynamicSlidingWindowLayer, DynamicLayer, DynamicSlidingWindowLayer, DynamicLayer, DynamicSlidingWindowLayer, DynamicLayer, DynamicSlidingWindowLayer, DynamicLayer, DynamicSlidingWindowLayer, DynamicLayer]), cache_position.shape=torch.Size([69])
+🟩 GptOssAttentionの順伝播開始 hidden_states.shape=torch.Size([1, 69, 2880]), position_embeddings[0].shape=torch.Size([1, 69, 32]), position_embeddings[1].shape=torch.Size([1, 69, 32]), past_key_values=DynamicCache(layers=[DynamicSlidingWindowLayer, DynamicLayer, DynamicSlidingWindowLayer, DynamicLayer, DynamicSlidingWindowLayer, DynamicLayer, DynamicSlidingWindowLayer, DynamicLayer, DynamicSlidingWindowLayer, DynamicLayer, DynamicSlidingWindowLayer, DynamicLayer, DynamicSlidingWindowLayer, DynamicLayer, DynamicSlidingWindowLayer, DynamicLayer, DynamicSlidingWindowLayer, DynamicLayer, DynamicSlidingWindowLayer, DynamicLayer, DynamicSlidingWindowLayer, DynamicLayer, DynamicSlidingWindowLayer, DynamicLayer]), cache_position.shape=torch.Size([69]), attention_mask.shape=torch.Size([1, 1, 69, 69])
 🟦 input_shape=torch.Size([1, 69])
 🟦 hidden_shape=(1, 69, -1, 64)
 🟦 クエリを計算 query_states.shape=torch.Size([1, 64, 69, 64])
@@ -1480,7 +1546,7 @@
 🟦 RoPEを適用 query_states.shape=torch.Size([1, 64, 69, 64]), key_states.shape=torch.Size([1, 8, 69, 64])
 🟦 キーバリューキャッシュを更新 key_states.shape=torch.Size([1, 8, 69, 64]), value_states.shape=torch.Size([1, 8, 69, 64])
 🟦 使用するアテンション実装: eager_attention_forward
-🟩 eager_attention_forwardの開始 query.shape=torch.Size([1, 64, 69, 64]), key.shape=torch.Size([1, 8, 69, 64]), value.shape=torch.Size([1, 8, 69, 64]), scaling=0.125, dropout=0.0
+🟩 eager_attention_forwardの開始 query.shape=torch.Size([1, 64, 69, 64]), key.shape=torch.Size([1, 8, 69, 64]), value.shape=torch.Size([1, 8, 69, 64]), scaling=0.125, dropout=0.0 attention_mask.shape=torch.Size([1, 1, 69, 69])
 🟩 repeat_kvの開始 hidden_states.shape=torch.Size([1, 8, 69, 64]), hidden_states.dtype=torch.bfloat16, n_rep=8
 🟦 hidden_states.shape=torch.Size([1, 8, 8, 69, 64]), hidden_states.dtype=torch.bfloat16
 🟩 repeat_kvの完了 res.shape=torch.Size([1, 64, 69, 64]), res.dtype=torch.bfloat16
@@ -1490,6 +1556,7 @@
 🟩 repeat_kvの完了 res.shape=torch.Size([1, 64, 69, 64]), res.dtype=torch.bfloat16
 🟦 バリューを複製 value_states.shape=torch.Size([1, 64, 69, 64]), value_states.dtype=torch.bfloat16
 🟦 アテンションロジットを計算 attn_weights.shape=torch.Size([1, 64, 69, 69]), attn_weights.dtype=torch.bfloat16
+🟦 causal_mask.shape=torch.Size([1, 1, 69, 69]), causal_mask.dtype=torch.bfloat16
 🟦 因果マスク適用 attn_weights.shape=torch.Size([1, 64, 69, 69]), attn_weights.dtype=torch.bfloat16
 🟦 sinks.shape=torch.Size([1, 64, 69, 1]), sinks.dtype=torch.bfloat16
 🟦 シンクを追加 combined_logits.shape=torch.Size([1, 64, 69, 70]), combined_logits.dtype=torch.bfloat16
@@ -1505,11 +1572,13 @@
 🟩 RMSNormの順伝播開始 hidden_states.shape=torch.Size([1, 69, 2880]), hidden_states.dtype=torch.bfloat16
 🟦 アップキャスト input_dtype=torch.bfloat16 hidden_states.dtype=torch.float32
 🟩 RMSNormの順伝播完了 res.shape=torch.Size([1, 69, 2880]), res.dtype=torch.bfloat16
-🟩 GptOssDecoderLayerの順伝播開始 hidden_states.shape=torch.Size([1, 69, 2880]), hidden_states.dtype=torch.bfloat16, position_ids.shape=torch.Size([1, 69]), past_key_values=DynamicCache(layers=[DynamicSlidingWindowLayer, DynamicLayer, DynamicSlidingWindowLayer, DynamicLayer, DynamicSlidingWindowLayer, DynamicLayer, DynamicSlidingWindowLayer, DynamicLayer, DynamicSlidingWindowLayer, DynamicLayer, DynamicSlidingWindowLayer, DynamicLayer, DynamicSlidingWindowLayer, DynamicLayer, DynamicSlidingWindowLayer, DynamicLayer, DynamicSlidingWindowLayer, DynamicLayer, DynamicSlidingWindowLayer, DynamicLayer, DynamicSlidingWindowLayer, DynamicLayer, DynamicSlidingWindowLayer, DynamicLayer]), use_cache=True, cache_position.shape=torch.Size([69]), position_embeddings[0].shape=torch.Size([1, 69, 32]), position_embeddings[1].shape=torch.Size([1, 69, 32])
+🟦 MoE層の入力 hidden_states.shape=torch.Size([1, 69, 2880]), hidden_states.dtype=torch.bfloat16
+🟦 MoE層の出力 hidden_states.shape=torch.Size([1, 69, 2880]), hidden_states.dtype=torch.bfloat16
+🟩 GptOssDecoderLayerの順伝播開始 hidden_states.shape=torch.Size([1, 69, 2880]), hidden_states.dtype=torch.bfloat16, position_ids.shape=torch.Size([1, 69]), past_key_values=DynamicCache(layers=[DynamicSlidingWindowLayer, DynamicLayer, DynamicSlidingWindowLayer, DynamicLayer, DynamicSlidingWindowLayer, DynamicLayer, DynamicSlidingWindowLayer, DynamicLayer, DynamicSlidingWindowLayer, DynamicLayer, DynamicSlidingWindowLayer, DynamicLayer, DynamicSlidingWindowLayer, DynamicLayer, DynamicSlidingWindowLayer, DynamicLayer, DynamicSlidingWindowLayer, DynamicLayer, DynamicSlidingWindowLayer, DynamicLayer, DynamicSlidingWindowLayer, DynamicLayer, DynamicSlidingWindowLayer, DynamicLayer]), use_cache=True, cache_position.shape=torch.Size([69]), position_embeddings[0].shape=torch.Size([1, 69, 32]), position_embeddings[1].shape=torch.Size([1, 69, 32]), attention_mask.shape=torch.Size([1, 1, 69, 69])
 🟩 RMSNormの順伝播開始 hidden_states.shape=torch.Size([1, 69, 2880]), hidden_states.dtype=torch.bfloat16
 🟦 アップキャスト input_dtype=torch.bfloat16 hidden_states.dtype=torch.float32
 🟩 RMSNormの順伝播完了 res.shape=torch.Size([1, 69, 2880]), res.dtype=torch.bfloat16
-🟩 GptOssAttentionの順伝播開始 hidden_states.shape=torch.Size([1, 69, 2880]), position_embeddings[0].shape=torch.Size([1, 69, 32]), position_embeddings[1].shape=torch.Size([1, 69, 32]), past_key_values=DynamicCache(layers=[DynamicSlidingWindowLayer, DynamicLayer, DynamicSlidingWindowLayer, DynamicLayer, DynamicSlidingWindowLayer, DynamicLayer, DynamicSlidingWindowLayer, DynamicLayer, DynamicSlidingWindowLayer, DynamicLayer, DynamicSlidingWindowLayer, DynamicLayer, DynamicSlidingWindowLayer, DynamicLayer, DynamicSlidingWindowLayer, DynamicLayer, DynamicSlidingWindowLayer, DynamicLayer, DynamicSlidingWindowLayer, DynamicLayer, DynamicSlidingWindowLayer, DynamicLayer, DynamicSlidingWindowLayer, DynamicLayer]), cache_position.shape=torch.Size([69])
+🟩 GptOssAttentionの順伝播開始 hidden_states.shape=torch.Size([1, 69, 2880]), position_embeddings[0].shape=torch.Size([1, 69, 32]), position_embeddings[1].shape=torch.Size([1, 69, 32]), past_key_values=DynamicCache(layers=[DynamicSlidingWindowLayer, DynamicLayer, DynamicSlidingWindowLayer, DynamicLayer, DynamicSlidingWindowLayer, DynamicLayer, DynamicSlidingWindowLayer, DynamicLayer, DynamicSlidingWindowLayer, DynamicLayer, DynamicSlidingWindowLayer, DynamicLayer, DynamicSlidingWindowLayer, DynamicLayer, DynamicSlidingWindowLayer, DynamicLayer, DynamicSlidingWindowLayer, DynamicLayer, DynamicSlidingWindowLayer, DynamicLayer, DynamicSlidingWindowLayer, DynamicLayer, DynamicSlidingWindowLayer, DynamicLayer]), cache_position.shape=torch.Size([69]), attention_mask.shape=torch.Size([1, 1, 69, 69])
 🟦 input_shape=torch.Size([1, 69])
 🟦 hidden_shape=(1, 69, -1, 64)
 🟦 クエリを計算 query_states.shape=torch.Size([1, 64, 69, 64])
@@ -1519,7 +1588,7 @@
 🟦 RoPEを適用 query_states.shape=torch.Size([1, 64, 69, 64]), key_states.shape=torch.Size([1, 8, 69, 64])
 🟦 キーバリューキャッシュを更新 key_states.shape=torch.Size([1, 8, 69, 64]), value_states.shape=torch.Size([1, 8, 69, 64])
 🟦 使用するアテンション実装: eager_attention_forward
-🟩 eager_attention_forwardの開始 query.shape=torch.Size([1, 64, 69, 64]), key.shape=torch.Size([1, 8, 69, 64]), value.shape=torch.Size([1, 8, 69, 64]), scaling=0.125, dropout=0.0
+🟩 eager_attention_forwardの開始 query.shape=torch.Size([1, 64, 69, 64]), key.shape=torch.Size([1, 8, 69, 64]), value.shape=torch.Size([1, 8, 69, 64]), scaling=0.125, dropout=0.0 attention_mask.shape=torch.Size([1, 1, 69, 69])
 🟩 repeat_kvの開始 hidden_states.shape=torch.Size([1, 8, 69, 64]), hidden_states.dtype=torch.bfloat16, n_rep=8
 🟦 hidden_states.shape=torch.Size([1, 8, 8, 69, 64]), hidden_states.dtype=torch.bfloat16
 🟩 repeat_kvの完了 res.shape=torch.Size([1, 64, 69, 64]), res.dtype=torch.bfloat16
@@ -1529,6 +1598,7 @@
 🟩 repeat_kvの完了 res.shape=torch.Size([1, 64, 69, 64]), res.dtype=torch.bfloat16
 🟦 バリューを複製 value_states.shape=torch.Size([1, 64, 69, 64]), value_states.dtype=torch.bfloat16
 🟦 アテンションロジットを計算 attn_weights.shape=torch.Size([1, 64, 69, 69]), attn_weights.dtype=torch.bfloat16
+🟦 causal_mask.shape=torch.Size([1, 1, 69, 69]), causal_mask.dtype=torch.bfloat16
 🟦 因果マスク適用 attn_weights.shape=torch.Size([1, 64, 69, 69]), attn_weights.dtype=torch.bfloat16
 🟦 sinks.shape=torch.Size([1, 64, 69, 1]), sinks.dtype=torch.bfloat16
 🟦 シンクを追加 combined_logits.shape=torch.Size([1, 64, 69, 70]), combined_logits.dtype=torch.bfloat16
@@ -1544,6 +1614,8 @@
 🟩 RMSNormの順伝播開始 hidden_states.shape=torch.Size([1, 69, 2880]), hidden_states.dtype=torch.bfloat16
 🟦 アップキャスト input_dtype=torch.bfloat16 hidden_states.dtype=torch.float32
 🟩 RMSNormの順伝播完了 res.shape=torch.Size([1, 69, 2880]), res.dtype=torch.bfloat16
+🟦 MoE層の入力 hidden_states.shape=torch.Size([1, 69, 2880]), hidden_states.dtype=torch.bfloat16
+🟦 MoE層の出力 hidden_states.shape=torch.Size([1, 69, 2880]), hidden_states.dtype=torch.bfloat16
 🟩 RMSNormの順伝播開始 hidden_states.shape=torch.Size([1, 69, 2880]), hidden_states.dtype=torch.bfloat16
 🟦 アップキャスト input_dtype=torch.bfloat16 hidden_states.dtype=torch.float32
 🟩 RMSNormの順伝播完了 res.shape=torch.Size([1, 69, 2880]), res.dtype=torch.bfloat16
