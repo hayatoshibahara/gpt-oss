@@ -1,3 +1,6 @@
 [submodule ".devcontainer"]
 	path = .devcontainer
 	url = git@github.com:hayatoshibahara/.devcontainer
+[submodule "gpt-oss"]
+	path = gpt-oss
+	url = git@github.com:openai/gpt-oss
